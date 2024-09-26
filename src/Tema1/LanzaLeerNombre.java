@@ -10,7 +10,8 @@ public class LanzaLeerNombre {
         File directorio = new File("C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\src\\Tema1");
 
         // Creamos un proceso para ejecutar el comando introduciendo un nombre
-        Process p = new ProcessBuilder("java", "-cp", "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios", "Tema1.LeerNombre", "Mariano")
+        Process p = new ProcessBuilder("java", "-cp", "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios",
+                "Tema1.LeerNombre", "Mariano")
                 .directory(directorio)
                 .start();
 
