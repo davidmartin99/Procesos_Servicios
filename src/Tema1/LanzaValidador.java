@@ -3,31 +3,21 @@ package Tema1;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
 
 public class LanzaValidador {
     public static void main(String[] args) throws IOException {
-        // Ruta del directorio donde se encuentra el archivo .class compilado
-        File directorio = new File("C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios");
+        // Ruta del directorio donde se encuentran los archivos .class compilados
+        File directorio = new File("C:\\Users\\david\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios");
 
-        // Creamos el proceso para ejecutar el primer programa con un argumento
-        ProcessBuilder pb = new ProcessBuilder("java", "-cp", directorio.getAbsolutePath(), "Tema1.ArgumentosValidador", "10"); // Cambia el argumento según lo que quieras probar
+        // Cambia el argumento a "Hola" para probar el caso de cadena
+        ProcessBuilder pb = new ProcessBuilder("java", "-cp", directorio.getAbsolutePath(), "Tema1.ArgumentosValidador", "-3");
         Process p = pb.start();
 
-        // Capturamos y mostramos el flujo de salida del proceso
-        InputStream is = p.getInputStream();
-        int c;
-        while ((c = is.read()) != -1) {
-            System.out.print((char) c);
-        }
-        is.close();
-
-        // Capturamos y mostramos el flujo de error si hay
-        InputStream es = p.getErrorStream();
-        int e;
-        while ((e = es.read()) != -1) {
-            System.out.print((char) e);
-        }
-        es.close();
+        // Capturamos y mostramos el flujo de salida estándar y error estándar
+        capturaSalida(p.getInputStream(), "Salida");
+        capturaSalida(p.getErrorStream(), "Error");
 
         // Esperamos a que el proceso termine y capturamos su valor de salida
         int exitVal;
@@ -56,5 +46,19 @@ public class LanzaValidador {
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
+    }
+
+    // Metodo para capturar la salida (tanto estándar como de error) en un hilo separado
+    private static void capturaSalida(InputStream inputStream, String tipo) {
+        new Thread(() -> {
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    System.out.println(tipo + ": " + line);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
     }
 }

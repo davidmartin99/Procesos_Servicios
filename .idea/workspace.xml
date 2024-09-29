@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="programación">
-      <change afterPath="$PROJECT_DIR$/src/Tema1/ArgumentosValidador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaValidador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/AlmacenarCadena2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/VisualizarCadena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema1/LanzaLeerNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/LanzaLeerNombre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema1/ArgumentosValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/ArgumentosValidador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema1/LanzaValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/LanzaValidador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +29,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "davidmartin99"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;davidmartin99&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/davidmartin99/Procesos_Servicios.git",
-    "accountId": "fe9b9d90-3f4d-4070-ba49-408a17ff8428"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davidmartin99/Procesos_Servicios.git&quot;,
+    &quot;accountId&quot;: &quot;428956c6-4789-43f2-87fe-020de087d362&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mbWucWW40TrvqAKucEHdYkPMO9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,14 +55,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlmacenarCadena.executor": "Run",
     "Application.ArgumentosValidador.executor": "Run",
     "Application.Ejemplo1.executor": "Run",
     "Application.Ejemplo2.executor": "Run",
     "Application.Ejemplo3.executor": "Run",
+    "Application.LanzaAlmacenarCadena.executor": "Run",
     "Application.LanzaLeerNombre.executor": "Run",
     "Application.LanzaValidador.executor": "Run",
+    "Application.LanzaVisualizarCadena2.executor": "Run",
+    "Application.LanzaVisualizarCadena5.executor": "Run",
     "Application.LeerNombre.executor": "Run",
+    "Application.VisualizarCadena5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -67,12 +77,16 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArgumentosValidador">
-    <configuration name="ArgumentosValidador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.ArgumentosValidador" />
+  <component name="RunManager" selected="Application.AlmacenarCadena2">
+    <configuration name="AlmacenarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.AlmacenarCadena" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo2" />
+    <configuration name="AlmacenarCadena2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.AlmacenarCadena2" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejemplo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo3" />
+    <configuration name="LanzaAlmacenarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaAlmacenarCadena" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaLeerNombre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaLeerNombre" />
+    <configuration name="LanzaVisualizarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaVisualizarCadena" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaValidador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaValidador" />
+    <configuration name="LanzaVisualizarCadena2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaVisualizarCadena2" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArgumentosValidador" />
-        <item itemvalue="Application.LanzaValidador" />
-        <item itemvalue="Application.LanzaLeerNombre" />
-        <item itemvalue="Application.Ejemplo3" />
-        <item itemvalue="Application.Ejemplo2" />
+        <item itemvalue="Application.AlmacenarCadena2" />
+        <item itemvalue="Application.LanzaVisualizarCadena2" />
+        <item itemvalue="Application.LanzaAlmacenarCadena" />
+        <item itemvalue="Application.AlmacenarCadena" />
+        <item itemvalue="Application.LanzaVisualizarCadena5" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +191,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727345982791</updated>
       <workItem from="1727345983805" duration="6418000" />
+      <workItem from="1727366754268" duration="396000" />
+      <workItem from="1727620103883" duration="9269000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />

@@ -3,7 +3,7 @@ package Tema1;
 public class ArgumentosValidador {
 
     public static void main(String[] args) {
-        int numArgs
+        int numArgs;
         // Si no se recibe ningún argumento
         if (args.length < 1) {
             System.out.println(args[0]);
