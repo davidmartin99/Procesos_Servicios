@@ -13,7 +13,7 @@ public class LanzaVisualizarCadena2 {
         String cadena = scanner.nextLine();
 
         // Ruta del archivo donde se almacenará la cadena
-        String rutaArchivo = "C:\\Users\\david\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios\\cadena.txt"; // Cambia esta ruta a la deseada
+        String rutaArchivo = "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\src\\Tema1\\cadena.txt"; // Cambia esta ruta a la deseada
 
         // Almacenar la cadena en el fichero
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(rutaArchivo))) {

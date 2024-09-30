@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="programación">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/AlmacenarCadena2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/VisualizarCadena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/EjemploLectura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/LanzaSumarNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/SumarNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema1/ArgumentosValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/ArgumentosValidador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema1/LanzaValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/LanzaValidador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/LanzaVisualizarCadena2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema1/VisualizarCadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/VisualizarCadena.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +61,19 @@
     "Application.Ejemplo1.executor": "Run",
     "Application.Ejemplo2.executor": "Run",
     "Application.Ejemplo3.executor": "Run",
+    "Application.Ejemplo4.executor": "Run",
+    "Application.Ejemplo5.executor": "Run",
+    "Application.EjemploLectura.executor": "Run",
     "Application.LanzaAlmacenarCadena.executor": "Run",
     "Application.LanzaLeerNombre.executor": "Run",
+    "Application.LanzaSumarNumeros.executor": "Run",
     "Application.LanzaValidador.executor": "Run",
+    "Application.LanzaVisualizarCadena.executor": "Run",
     "Application.LanzaVisualizarCadena2.executor": "Run",
     "Application.LanzaVisualizarCadena5.executor": "Run",
     "Application.LeerNombre.executor": "Run",
+    "Application.SumarNumeros.executor": "Run",
+    "Application.VisualizarCadena.executor": "Run",
     "Application.VisualizarCadena5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,9 +92,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AlmacenarCadena2">
-    <configuration name="AlmacenarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.AlmacenarCadena" />
+  <component name="RunManager" selected="Application.LanzaSumarNumeros">
+    <configuration name="Ejemplo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo4" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlmacenarCadena2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.AlmacenarCadena2" />
+    <configuration name="Ejemplo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo5" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaAlmacenarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaAlmacenarCadena" />
+    <configuration name="EjemploLectura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.EjemploLectura" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -124,21 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaVisualizarCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaVisualizarCadena" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LanzaVisualizarCadena2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaVisualizarCadena2" />
+    <configuration name="LanzaSumarNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaSumarNumeros" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +159,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumarNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.SumarNumeros" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisualizarCadena" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.VisualizarCadena" />
+      <module name="Procesos_Servicios" />
+      <option name="PROGRAM_PARAMETERS" value="cadena" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlmacenarCadena2" />
-        <item itemvalue="Application.LanzaVisualizarCadena2" />
-        <item itemvalue="Application.LanzaAlmacenarCadena" />
-        <item itemvalue="Application.AlmacenarCadena" />
-        <item itemvalue="Application.LanzaVisualizarCadena5" />
+        <item itemvalue="Application.LanzaSumarNumeros" />
+        <item itemvalue="Application.SumarNumeros" />
+        <item itemvalue="Application.Ejemplo5" />
+        <item itemvalue="Application.Ejemplo4" />
+        <item itemvalue="Application.EjemploLectura" />
       </list>
     </recent_temporary>
   </component>

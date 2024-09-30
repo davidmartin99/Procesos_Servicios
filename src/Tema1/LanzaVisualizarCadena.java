@@ -14,7 +14,7 @@ public class LanzaVisualizarCadena {
         String cadena = scanner.nextLine();
 
         // Ruta del directorio donde se encuentran los archivos .class compilados
-        String classpath = "C:\\Users\\david\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios";
+        String classpath = "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\out\\production\\Procesos_Servicios";
 
         // Crear el proceso para ejecutar el primer programa con el argumento ingresado
         ProcessBuilder pb = new ProcessBuilder("java", "-cp", classpath, "Tema1.VisualizarCadena", cadena);
