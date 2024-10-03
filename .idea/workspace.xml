@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="30/09">
-      <change afterPath="$PROJECT_DIR$/src/Tema1/LeerCadena_6.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="30/09 ,,">
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/EntradaSalidaERROR_Ej1_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema1/ProcessBuilder_Redirect_Ej8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/davidmartin99/Procesos_Servicios.git&quot;,
-    &quot;accountId&quot;: &quot;428956c6-4789-43f2-87fe-020de087d362&quot;
+    &quot;accountId&quot;: &quot;fe9b9d90-3f4d-4070-ba49-408a17ff8428&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -56,15 +61,23 @@
     "Application.Ejemplo3.executor": "Run",
     "Application.Ejemplo4.executor": "Run",
     "Application.Ejemplo5.executor": "Run",
+    "Application.Ejemplo6.executor": "Run",
+    "Application.Ejemplo7.executor": "Run",
+    "Application.Ejemplo8.executor": "Run",
+    "Application.Ejemplo9.executor": "Run",
     "Application.EjemploLectura.executor": "Run",
+    "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
     "Application.LanzaAlmacenarCadena.executor": "Run",
+    "Application.LanzaLeerCadena_6.executor": "Run",
     "Application.LanzaLeerNombre.executor": "Run",
     "Application.LanzaSumarNumeros.executor": "Run",
     "Application.LanzaValidador.executor": "Run",
     "Application.LanzaVisualizarCadena.executor": "Run",
     "Application.LanzaVisualizarCadena2.executor": "Run",
     "Application.LanzaVisualizarCadena5.executor": "Run",
+    "Application.LeerCadena_6.executor": "Run",
     "Application.LeerNombre.executor": "Run",
+    "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
     "Application.VisualizarCadena.executor": "Run",
     "Application.VisualizarCadena5.executor": "Run",
@@ -85,9 +98,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LanzaLeerCadena_6">
-    <configuration name="Ejemplo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo5" />
+  <component name="RunManager" selected="Application.ProcessBuilder_Redirect_Ej8">
+    <configuration name="Ejemplo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo7" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaLeerCadena_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaLeerCadena_6" />
+    <configuration name="Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo8" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaSumarNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LanzaSumarNumeros" />
+    <configuration name="Ejemplo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo9" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeerCadena_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LeerCadena_6" />
+    <configuration name="EntradaSalidaERROR_Ej1_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.EntradaSalidaERROR_Ej1_7" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumarNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.SumarNumeros" />
+    <configuration name="ProcessBuilder_Redirect_Ej8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.ProcessBuilder_Redirect_Ej8" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LanzaLeerCadena_6" />
-        <item itemvalue="Application.LeerCadena_6" />
-        <item itemvalue="Application.LanzaSumarNumeros" />
-        <item itemvalue="Application.SumarNumeros" />
-        <item itemvalue="Application.Ejemplo5" />
+        <item itemvalue="Application.ProcessBuilder_Redirect_Ej8" />
+        <item itemvalue="Application.Ejemplo9" />
+        <item itemvalue="Application.EntradaSalidaERROR_Ej1_7" />
+        <item itemvalue="Application.Ejemplo8" />
+        <item itemvalue="Application.Ejemplo7" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +221,9 @@
       <workItem from="1727345983805" duration="6418000" />
       <workItem from="1727366754268" duration="396000" />
       <workItem from="1727620103883" duration="9269000" />
+      <workItem from="1727780301867" duration="2000" />
+      <workItem from="1727862096972" duration="56000" />
+      <workItem from="1727950543341" duration="5076000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -241,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727696104641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="30/09">
+      <option name="closed" value="true" />
+      <created>1727697434756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727697434756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
