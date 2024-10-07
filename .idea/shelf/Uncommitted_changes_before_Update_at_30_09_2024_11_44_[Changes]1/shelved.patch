@@ -1,0 +1,19 @@
+Index: src/Tema1/ArgumentosValidador.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Tema1;\r\n\r\npublic class ArgumentosValidador {\r\n\r\n    public static void main(String[] args) {\r\n        int numArgs\r\n        // Si no se recibe ningún argumento\r\n        if (args.length < 1) {\r\n            System.out.println(args[0]);\r\n            System.exit(1);\r\n        }\r\n\r\n        // Si el argumento no es un número\r\n        if (!esNumeroEntero(args[0])) {\r\n            System.out.println(\"Error: El argumento no es un número, es una cadena.\");\r\n            System.exit(2);\r\n        }\r\n\r\n        // Convertimos el argumento a entero\r\n        int numero = Integer.parseInt(args[0]);\r\n\r\n        // Si el número es menor que 0\r\n        if (numero < 0) {\r\n            System.out.println(\"Error: El número es menor que 0.\");\r\n            System.exit(3);\r\n        }\r\n\r\n        // Si es un número válido y mayor o igual que 0\r\n        System.out.println(\"Éxito: El número es válido y mayor o igual que 0.\");\r\n        System.exit(0);\r\n    }\r\n\r\n    // Función que comprueba si una cadena es un número entero\r\n    public static boolean esNumeroEntero(String str) {\r\n        for (int i = 0; i < str.length(); i++) {\r\n            if (i == 0 && str.charAt(i) == '-') {\r\n                // Permite el signo negativo solo en la primera posición\r\n                if (str.length() == 1) {\r\n                    return false;  // Solo un signo no es válido\r\n                } else {\r\n                    continue;\r\n                }\r\n            }\r\n            // Comprueba si cada carácter es un dígito\r\n            if (!Character.isDigit(str.charAt(i))) {\r\n                return false;\r\n            }\r\n        }\r\n        return true;\r\n    }//Fin main\r\n\r\n}//Fin class\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Tema1/ArgumentosValidador.java b/src/Tema1/ArgumentosValidador.java
+--- a/src/Tema1/ArgumentosValidador.java	(revision f481626e0855297cf54c11cff20e0a0007e25536)
++++ b/src/Tema1/ArgumentosValidador.java	(date 1727689190795)
+@@ -3,7 +3,7 @@
+ public class ArgumentosValidador {
+ 
+     public static void main(String[] args) {
+-        int numArgs
++        int numArgs;
+         // Si no se recibe ningún argumento
+         if (args.length < 1) {
+             System.out.println(args[0]);

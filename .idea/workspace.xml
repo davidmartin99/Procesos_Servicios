@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="30/09 ,,">
-      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/Ejemplo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/EntradaSalidaERROR_Ej1_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema1/ProcessBuilder_Redirect_Ej8.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="03/10 procesos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +61,9 @@
     "Application.Ejemplo9.executor": "Run",
     "Application.EjemploLectura.executor": "Run",
     "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
+    "Application.Incrementador1.executor": "Run",
+    "Application.Incrementador2.executor": "Run",
+    "Application.IncrementadorConBloqueo.executor": "Run",
     "Application.LanzaAlmacenarCadena.executor": "Run",
     "Application.LanzaLeerCadena_6.executor": "Run",
     "Application.LanzaLeerNombre.executor": "Run",
@@ -77,8 +74,10 @@
     "Application.LanzaVisualizarCadena5.executor": "Run",
     "Application.LeerCadena_6.executor": "Run",
     "Application.LeerNombre.executor": "Run",
+    "Application.ProcesosCooperativos.executor": "Run",
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
+    "Application.UsaHilo.executor": "Run",
     "Application.VisualizarCadena.executor": "Run",
     "Application.VisualizarCadena5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,9 +97,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProcessBuilder_Redirect_Ej8">
-    <configuration name="Ejemplo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo7" />
+  <component name="RunManager" selected="Application.UsaHilo">
+    <configuration name="Incrementador1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Incrementador1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo8" />
+    <configuration name="Incrementador2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.Incrementador2" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -125,21 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejemplo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo9" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntradaSalidaERROR_Ej1_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.EntradaSalidaERROR_Ej1_7" />
+    <configuration name="IncrementadorConBloqueo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.IncrementadorConBloqueo" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +151,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessBuilder_Redirect_Ej8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.ProcessBuilder_Redirect_Ej8" />
+    <configuration name="ProcesosCooperativos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.ProcesosCooperativos" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsaHilo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.UsaHilo" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -194,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProcessBuilder_Redirect_Ej8" />
-        <item itemvalue="Application.Ejemplo9" />
-        <item itemvalue="Application.EntradaSalidaERROR_Ej1_7" />
-        <item itemvalue="Application.Ejemplo8" />
-        <item itemvalue="Application.Ejemplo7" />
+        <item itemvalue="Application.UsaHilo" />
+        <item itemvalue="Application.ProcesosCooperativos" />
+        <item itemvalue="Application.IncrementadorConBloqueo" />
+        <item itemvalue="Application.Incrementador2" />
+        <item itemvalue="Application.Incrementador1" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +222,10 @@
       <workItem from="1727620103883" duration="9269000" />
       <workItem from="1727780301867" duration="2000" />
       <workItem from="1727862096972" duration="56000" />
-      <workItem from="1727950543341" duration="5076000" />
+      <workItem from="1727950543341" duration="5875000" />
+      <workItem from="1728023568199" duration="161000" />
+      <workItem from="1728289684557" duration="2000" />
+      <workItem from="1728293981799" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727697434756</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="03/10 procesos">
+      <option name="closed" value="true" />
+      <created>1727955993720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727955993720</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +296,8 @@
     <MESSAGE value="programación de procesos y servicios" />
     <MESSAGE value="programación" />
     <MESSAGE value="30/09" />
-    <option name="LAST_COMMIT_MESSAGE" value="30/09" />
+    <MESSAGE value="03/10 procesos" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/10 procesos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
