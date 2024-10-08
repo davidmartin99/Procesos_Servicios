@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="07/10 procesos">
-      <change afterPath="$PROJECT_DIR$/src/Practica_Tema1/EjecutorComandos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_09_2024_11_44_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_09_2024_11_44__Changes_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica_Tema1/ComprimirArchivos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/salida.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,7 @@
   "keyToString": {
     "Application.AlmacenarCadena.executor": "Run",
     "Application.ArgumentosValidador.executor": "Run",
+    "Application.ComprimirArchivos.executor": "Run",
     "Application.EjecutorComandos.executor": "Run",
     "Application.Ejemplo1.executor": "Run",
     "Application.Ejemplo2.executor": "Run",
@@ -103,9 +101,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EjecutorComandos">
-    <configuration name="EjecutorComandos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.EjecutorComandos" />
+  <component name="RunManager" selected="Application.ComprimirArchivos">
+    <configuration name="ComprimirArchivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.ComprimirArchivos" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo1" />
+    <configuration name="EjecutorComandos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.EjecutorComandos" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema1.*" />
+          <option name="PATTERN" value="Practica_Tema1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComprimirArchivos" />
         <item itemvalue="Application.EjecutorComandos" />
         <item itemvalue="Application.Ejemplo2" />
         <item itemvalue="Application.Ejemplo5" />
         <item itemvalue="Application.Ejemplo3" />
-        <item itemvalue="Application.Ejemplo1" />
       </list>
     </recent_temporary>
   </component>
