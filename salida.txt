@@ -1,0 +1,7 @@
+Microsoft Windows [Versi¢n 10.0.22631.4249]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\david\IdeaProjects\Procesos_Servicios>@echo off
+echo Hello, World! > salida.txt
+pause
+Presione una tecla para continuar . . . 
