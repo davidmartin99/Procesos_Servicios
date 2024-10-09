@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 2">
-      <change afterPath="$PROJECT_DIR$/src/Practica_Tema1/SincronizacionSubprocesos.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 2e">
+      <change afterPath="$PROJECT_DIR$/src/Practica_Tema1/GestorTareas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/salida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/archivo1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/archivo2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema1/contador.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema1/contador.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,7 @@
     "Application.Ejemplo9.executor": "Run",
     "Application.EjemploLectura.executor": "Run",
     "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
+    "Application.GestorTareas.executor": "Run",
     "Application.Incrementador1.executor": "Run",
     "Application.Incrementador2.executor": "Run",
     "Application.IncrementadorConBloqueo.executor": "Run",
@@ -106,7 +103,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SincronizacionSubprocesos">
+  <component name="RunManager" selected="Application.GestorTareas">
     <configuration name="Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo8" />
       <module name="Procesos_Servicios" />
@@ -120,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementadorConBloqueo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.IncrementadorConBloqueo" />
+    <configuration name="GestorTareas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.GestorTareas" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema1.*" />
+          <option name="PATTERN" value="Practica_Tema1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GestorTareas" />
         <item itemvalue="Application.SincronizacionSubprocesos" />
         <item itemvalue="Application.UsaHilo" />
         <item itemvalue="Application.ProcesosCooperativos" />
         <item itemvalue="Application.Ejemplo8" />
-        <item itemvalue="Application.IncrementadorConBloqueo" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +233,7 @@
       <workItem from="1728289684557" duration="2000" />
       <workItem from="1728293981799" duration="4684000" />
       <workItem from="1728380973363" duration="1947000" />
-      <workItem from="1728485816630" duration="5528000" />
+      <workItem from="1728485816630" duration="7785000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -302,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728408034471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="practica 2e">
+      <option name="closed" value="true" />
+      <created>1728493283557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728493283557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +331,8 @@
     <MESSAGE value="03/10 procesos" />
     <MESSAGE value="07/10 procesos" />
     <MESSAGE value="practica 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="practica 2" />
+    <MESSAGE value="practica 2e" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 2e" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
