@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica procesoss">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica procesosss">
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloEjemplo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloEjemplo2Grupos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/TIC_TAC/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/TIC_TAC/Tac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/TIC_TAC/Tic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/GestorTareas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/GestorTareas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo3.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/archivo3.txt.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,8 @@
     "Application.EjemploLectura.executor": "Run",
     "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
     "Application.GestorTareas.executor": "Run",
+    "Application.HiloEjemplo2.executor": "Run",
+    "Application.HiloEjemplo2Grupos.executor": "Run",
     "Application.Incrementador1.executor": "Run",
     "Application.Incrementador2.executor": "Run",
     "Application.IncrementadorConBloqueo.executor": "Run",
@@ -80,6 +84,7 @@
     "Application.LanzaVisualizarCadena5.executor": "Run",
     "Application.LeerCadena_6.executor": "Run",
     "Application.LeerNombre.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.ParallelProcessExample.executor": "Run",
     "Application.ProcesosCooperativos.executor": "Run",
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
@@ -105,52 +110,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GestorTareas">
-    <configuration name="ComprimirArchivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.ComprimirArchivos" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica_Tema1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutorComandos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.EjecutorComandos" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica_Tema1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.Ejemplo2" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GestorTareas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica_Tema1.GestorTareas" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practica_Tema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiloEjemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.HiloEjemplo2" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiloEjemplo2Grupos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.HiloEjemplo2Grupos" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +157,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.TIC_TAC.Main" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.TIC_TAC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HiloEjemplo2" />
+        <item itemvalue="Application.HiloEjemplo2Grupos" />
         <item itemvalue="Application.GestorTareas" />
         <item itemvalue="Application.SincronizacionSubprocesos" />
-        <item itemvalue="Application.EjecutorComandos" />
-        <item itemvalue="Application.ComprimirArchivos" />
-        <item itemvalue="Application.Ejemplo2" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +240,7 @@
       <workItem from="1728289684557" duration="2000" />
       <workItem from="1728293981799" duration="4684000" />
       <workItem from="1728380973363" duration="1947000" />
-      <workItem from="1728553866661" duration="4264000" />
+      <workItem from="1728553866661" duration="6668000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -301,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728559183818</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Practica procesosss">
+      <option name="closed" value="true" />
+      <created>1728559363521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728559363521</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +338,8 @@
     <MESSAGE value="03/10 procesos" />
     <MESSAGE value="07/10 procesos" />
     <MESSAGE value="Practica procesoss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica procesoss" />
+    <MESSAGE value="Practica procesosss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica procesosss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
