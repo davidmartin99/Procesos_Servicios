@@ -42,6 +42,11 @@ public class EjecutorComandos {
     // Método para ejecutar un comando y redirigir la salida a un archivo
     public int ejecutarComandoConRedireccion(String comando, File archivoSalida) {
         try {
+            // Creamos el archivo de salida si no existe
+            if (!archivoSalida.exists()) {
+                archivoSalida.createNewFile();
+            }
+
             ProcessBuilder builder = new ProcessBuilder("cmd", "/c", comando);
             builder.redirectOutput(archivoSalida);
             Process proceso = builder.start();
@@ -58,13 +63,16 @@ public class EjecutorComandos {
         EjecutorComandos ejecutor = new EjecutorComandos();
 
         // Ejemplo de uso del método ejecutarComando
-        System.out.println("Código de salida: " + ejecutor.ejecutarComando("echo Hola Mundo"));
+        int salida1 = ejecutor.ejecutarComando("echo Hola Mundo");
+        System.out.println("Código de salida1: " + salida1);
 
-        // Ejemplo de uso del método ejecutarComandoConEntrada
-        System.out.println("Código de salida: " + ejecutor.ejecutarComandoConEntrada("type CON", "Hola desde el input"));
+        // Ejemplo de uso del método ejecutarComandoConEntrada (cambiamos el comando)
+        int salida2 = ejecutor.ejecutarComandoConEntrada("echo", "Hola desde el input");
+        System.out.println("Código de salida2: " + salida2);
 
         // Ejemplo de uso del método ejecutarComandoConRedireccion
         File archivoSalida = new File("src\\Practica_Tema1\\salida.txt");
-        System.out.println("Código de salida: " + ejecutor.ejecutarComandoConRedireccion("echo Hola Mundo", archivoSalida));
+        int salida3 = ejecutor.ejecutarComandoConRedireccion("echo Hola Mundo", archivoSalida);
+        System.out.println("Código de salida3: " + salida3);
     }
 }
