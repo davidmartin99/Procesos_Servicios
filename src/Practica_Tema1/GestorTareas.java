@@ -18,9 +18,9 @@ public class GestorTareas {
         try {
             // Archivos a procesar (simulación de selección de archivos por el usuario)
             String[] archivosParaComprimir = {
-                    "src\\Practica_Tema1\\archivo1.txt",
-                    "src\\Practica_Tema1\\archivo2.txt",
-                    "src\\Practica_Tema1\\archivo3.txt"
+                    "src\\Practica_Tema1\\archivo11.txt",
+                    "src\\Practica_Tema1\\archivo22.txt",
+                    "src\\Practica_Tema1\\archivo33.txt"
             };
 
             // Crear un pool de hilos para procesar múltiples tareas
