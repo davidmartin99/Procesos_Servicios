@@ -5,105 +5,60 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * La clase SincronizacionSubprocesos permite ejecutar comandos de PowerShell para contar
+ * líneas y palabras en archivos de texto, gestionando la ejecución de subprocesos y la
+ * sincronización de resultados.
+ * @author david
+ * @version 1.0
+ * @date 12/10/2024
+ */
 public class SincronizacionSubprocesos {
 
-    // Definimos las rutas de los archivos como variables de clase
-    private static final String RUTA_ARCHIVO1 = "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\src\\Practica_Tema1\\archivo11.txt";
-    private static final String RUTA_ARCHIVO2 = "C:\\Users\\aludam2\\IdeaProjects\\Procesos_Servicios\\src\\Practica_Tema1\\archivo22.txt";
-
-    // Método para contar líneas usando PowerShell
-    public static int contarLineas(File archivo) throws IOException, InterruptedException {
-        ProcessBuilder builder = new ProcessBuilder("powershell.exe", "-Command", "Get-Content",
-                archivo.getAbsolutePath(), "| Measure-Object -Line");
+    /**
+     * Método privado que ejecuta un comando de PowerShell y devuelve el conteo de líneas
+     * o palabras del archivo especificado.
+     *
+     * @param comando El comando de PowerShell a ejecutar, que debe devolver un número.
+     * @return El conteo como un entero. Devuelve 0 si no se puede obtener el conteo.
+     * @throws IOException Si ocurre un error al ejecutar el comando.
+     * @throws InterruptedException Si el proceso es interrumpido.
+     */
+    private static int ejecutarComando(String comando) throws IOException, InterruptedException {
+        ProcessBuilder builder = new ProcessBuilder("powershell.exe", "-Command", comando);
         Process proceso = builder.start();
 
-        // Capturamos la salida del proceso
-        BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
-        StringBuilder output = new StringBuilder(); // To store raw output
-        String linea;
-
-        while ((linea = reader.readLine()) != null) {
-            output.append(linea).append("\n"); // Store output
-        }
-
-        proceso.waitFor();
-
-        // Print raw PowerShell output for debugging
-        System.out.println("PowerShell Output (Count Lines):");
-        System.out.println(output.toString());
-
-        // Parse the output for the line count
-        String outputString = output.toString();
-        if (outputString.contains("Lines")) {
-            String[] partes = outputString.split("Lines");
-            if (partes.length > 1) {
-                String numberString = partes[1].replaceAll("\\D+", "").trim(); // Extrae solo los dígitos
-                if (!numberString.isEmpty()) {
-                    return Integer.parseInt(numberString);
+        // Leer la salida del proceso
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()))) {
+            String resultado;
+            while ((resultado = reader.readLine()) != null) {
+                if (resultado.trim().matches("^\\d+$")) {
+                    return Integer.parseInt(resultado.trim()); // Si es un número, lo retorna
                 }
             }
         }
 
-        System.err.println("No se pudo obtener el número de líneas.");
-        return 0;
-    }
-
-    // Método para contar palabras usando PowerShell
-    public static int contarPalabras(File archivo) throws IOException, InterruptedException {
-        ProcessBuilder builder = new ProcessBuilder("powershell.exe", "-Command", "Get-Content",
-                archivo.getAbsolutePath(), "| Measure-Object -Word");
-        Process proceso = builder.start();
-
-        // Capturamos la salida del proceso
-        BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
-        StringBuilder output = new StringBuilder(); // To store raw output
-        String linea;
-
-        while ((linea = reader.readLine()) != null) {
-            output.append(linea).append("\n"); // Store output
-        }
-
         proceso.waitFor();
-
-        // Print raw PowerShell output for debugging
-        System.out.println("PowerShell Output (Count Words):");
-        System.out.println(output.toString());
-
-        // Parse the output for the word count
-        String outputString = output.toString();
-        if (outputString.contains("Words")) {
-            String[] partes = outputString.split("Words");
-            if (partes.length > 1) {
-                String numberString = partes[1].replaceAll("\\D+", "").trim(); // Extrae solo los dígitos
-                if (!numberString.isEmpty()) {
-                    return Integer.parseInt(numberString);
-                }
-            }
-        }
-
-        System.err.println("No se pudo obtener el número de palabras.");
+        System.err.println("No se pudo obtener el conteo.");
         return 0;
     }
 
+    /**
+     * Método principal que se ejecuta al iniciar la aplicación. Se encarga de definir
+     * los archivos a analizar y gestionar la ejecución de comandos para contar líneas y palabras.
+     *
+     * @param args Argumentos de línea de comandos (no se utilizan).
+     */
     public static void main(String[] args) {
-        // Archivos de texto que se van a usar
-        File archivo1 = new File(RUTA_ARCHIVO1);
-        File archivo2 = new File(RUTA_ARCHIVO2);
-
-        // Debug: Check if files exist
-        System.out.println("Checking file paths...");
-        System.out.println("File 1 exists: " + archivo1.exists());
-        System.out.println("File 2 exists: " + archivo2.exists());
+        String archivo1 = "src\\Practica_Tema1\\archivo1.txt";
+        String archivo2 = "src\\Practica_Tema1\\archivo2.txt";
 
         try {
-            // Ejecutamos el primer subproceso para contar líneas
-            int totalLineas = contarLineas(archivo1);
+            // Ejecutar comandos para contar líneas y palabras
+            int totalLineas = ejecutarComando("Get-Content " + archivo1 + " | Measure-Object -Line");
+            int totalPalabras = ejecutarComando("Get-Content " + archivo2 + " | Measure-Object -Word");
 
-            // Ejecutamos el segundo subproceso para contar palabras
-            int totalPalabras = contarPalabras(archivo2);
-
-
-            // Mostramos el resultado
+            // Mostrar los resultados
             System.out.println("Total líneas en archivo1: " + totalLineas);
             System.out.println("Total palabras en archivo2: " + totalPalabras);
             System.out.println("Total combinado de líneas y palabras: " + (totalLineas + totalPalabras));
@@ -111,5 +66,6 @@ public class SincronizacionSubprocesos {
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
-    }
-}
+    } // Fin main
+
+} // Fin class SincronizacionSubprocesos

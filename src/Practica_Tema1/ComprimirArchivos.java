@@ -1,33 +1,55 @@
 package Practica_Tema1;
 
 import java.io.*;
-/*
-    scribe la clase ComprimirArchivos que inicie un subproceso para comprimir varios archivos
-    en un archivo .tar y comparta información con el subproceso.
- */
 
+/**
+ * La clase ComprimirArchivos permite comprimir múltiples archivos en un archivo .tar utilizando
+ * el comando 'tar' del sistema operativo. Se asegura de que los archivos a comprimir existan
+ * y gestiona el proceso de compresión.
+ * @author david
+ * @version 1.0
+ * @date 12/10/2024
+ */
 public class ComprimirArchivos {
 
+    /**
+     * Método principal que se ejecuta al iniciar la aplicación. Se encarga de definir
+     * los archivos a comprimir y gestionar el proceso de compresión.
+     *
+     * @param args Argumentos de línea de comandos (no se utilizan).
+     */
     public static void main(String[] args) {
         // Archivo .tar que vamos a generar
         String nombreTar = "src\\Practica_Tema1\\archivos_comprimidos.tar";
 
+        // Rutas de los archivos a comprimir
+        String[] archivos = {
+                "src\\Practica_Tema1\\archivo1.txt",
+                "src\\Practica_Tema1\\archivo2.txt",
+                "src\\Practica_Tema1\\archivo3.txt"
+        };
+
+        // Comprobar si los archivos existen, si no, crearlos
+        comprobarYCrearArchivos(archivos);
+
         // Iniciar el proceso que comprime archivos
         try {
-            // Crear el comando tar e incluir los archivos como argumentos directos
-            ProcessBuilder pb = new ProcessBuilder();
-
-            // Comando 'tar' con archivos a comprimir
-            pb.command("tar", "-cvf", nombreTar,
-                    "src\\Practica_Tema1\\archivo1.txt",
-                    "src\\Practica_Tema1\\archivo2.txt",
-                    "src\\Practica_Tema1\\archivo3.txt");
+            // Crear el ProcessBuilder con el comando para 'tar' con la opción '-T -'
+            ProcessBuilder pb = new ProcessBuilder("tar", "-cf", nombreTar, "-T", "-");
 
             // Redirigir errores a la salida estándar
             pb.redirectErrorStream(true);
 
             // Iniciar el proceso
             Process proceso = pb.start();
+
+            // Enviar la lista de archivos a través de la entrada estándar
+            try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(proceso.getOutputStream()))) {
+                for (String archivo : archivos) {
+                    writer.write(archivo);
+                    writer.newLine(); // Añadir una nueva línea para cada archivo
+                }
+            }
 
             // Leer la salida del subproceso
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()))) {
@@ -47,8 +69,31 @@ public class ComprimirArchivos {
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
-        }//Fin try-catch
+        } // Fin try-catch
 
-    }//Fin main
+    } // Fin main
 
-}//Fin class
+    /**
+     * Método que comprueba si los archivos existen. Si no existen, los crea.
+     *
+     * @param archivos Array de rutas de los archivos a comprobar.
+     */
+    public static void comprobarYCrearArchivos(String[] archivos) {
+        for (String archivo : archivos) {
+            File file = new File(archivo);
+            if (!file.exists()) {
+                try {
+                    if (file.createNewFile()) {
+                        System.out.println("Archivo creado: " + archivo);
+                    }
+                } catch (IOException e) {
+                    System.err.println("No se pudo crear el archivo: " + archivo);
+                    e.printStackTrace();
+                }
+            } else {
+                System.out.println("El archivo ya existe: " + archivo);
+            }
+        }
+    } // Fin comprobarYCrearArchivos
+
+} // Fin class ComprimirArchivos
