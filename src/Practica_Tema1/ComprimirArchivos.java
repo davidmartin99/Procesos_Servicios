@@ -4,8 +4,8 @@ import java.io.*;
 
 /**
  * La clase ComprimirArchivos permite comprimir múltiples archivos en un archivo .tar utilizando
- * el comando 'tar' del sistema operativo. Se asegura de que los archivos a comprimir existan
- * y gestiona el proceso de compresión.
+ * el comando 'tar' del sistema operativo.
+ * Se asegura de que los archivos a comprimir existan y gestiona el proceso de compresión.
  * @author david
  * @version 1.0
  * @date 12/10/2024
@@ -13,10 +13,8 @@ import java.io.*;
 public class ComprimirArchivos {
 
     /**
-     * Método principal que se ejecuta al iniciar la aplicación. Se encarga de definir
-     * los archivos a comprimir y gestionar el proceso de compresión.
-     *
-     * @param args Argumentos de línea de comandos (no se utilizan).
+     * Método principal que se ejecuta al iniciar la aplicación.
+     * Se encarga de definir los archivos a comprimir y gestionar el proceso de compresión.
      */
     public static void main(String[] args) {
         // Archivo .tar que vamos a generar
@@ -69,9 +67,9 @@ public class ComprimirArchivos {
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
-        } // Fin try-catch
+        } //Fin try-catch
 
-    } // Fin main
+    } //Fin main
 
     /**
      * Método que comprueba si los archivos existen. Si no existen, los crea.
@@ -94,6 +92,6 @@ public class ComprimirArchivos {
                 System.out.println("El archivo ya existe: " + archivo);
             }
         }
-    } // Fin comprobarYCrearArchivos
+    } //Fin comprobarYCrearArchivos
 
-} // Fin class ComprimirArchivos
+} //Fin class ComprimirArchivos

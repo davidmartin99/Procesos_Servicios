@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 2xed">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 12/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/ComprimirArchivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/ComprimirArchivos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/EjecutorComandos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/EjecutorComandos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/GestorTareas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/GestorTareas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/SincronizacionSubprocesos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/SincronizacionSubprocesos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo1.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo11.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo2.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo22.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo3.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivo33.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/archivos_comprimidos.tar" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/archivos_comprimidos.tar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,6 +235,7 @@
       <workItem from="1728293981799" duration="4684000" />
       <workItem from="1728380973363" duration="1947000" />
       <workItem from="1728485816630" duration="7785000" />
+      <workItem from="1728820607670" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -329,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728722811092</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="practica 12/10">
+      <option name="closed" value="true" />
+      <created>1728732030748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728732030748</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +351,8 @@
     <MESSAGE value="practica 2" />
     <MESSAGE value="practica 2e" />
     <MESSAGE value="practica 2xed" />
-    <option name="LAST_COMMIT_MESSAGE" value="practica 2xed" />
+    <MESSAGE value="practica 12/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 12/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

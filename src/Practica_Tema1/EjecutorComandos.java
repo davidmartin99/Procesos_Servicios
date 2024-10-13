@@ -7,7 +7,9 @@ import java.io.OutputStreamWriter;
 
 /**
  * La clase EjecutorComandos encapsula la funcionalidad para ejecutar comandos del sistema operativo
- * utilizando ProcessBuilder. Proporciona métodos para ejecutar comandos simples, ejecutar comandos
+ * utilizando ProcessBuilder.
+ *
+ * Proporciona métodos para ejecutar comandos simples, ejecutar comandos
  * con entrada estándar y redirigir la salida a archivos.
  * @author david
  * @version 1.0
@@ -15,12 +17,10 @@ import java.io.OutputStreamWriter;
  */
 public class EjecutorComandos {
     /**
-     * Método de prueba para ejecutar comandos y mostrar el código de salida en la consola.
-     * Este método demuestra el uso de los métodos de la clase EjecutorComandos.
-     *
-     * @param args Argumentos de línea de comandos (no se utilizan).
+     * Método main de prueba para ejecutar comandos y mostrar el código de salida en la consola.
      */
     public static void main(String[] args) {
+        // Creamos el ejecutor
         EjecutorComandos ejecutor = new EjecutorComandos();
 
         // Ejemplo de uso del método ejecutarComando
@@ -35,32 +35,34 @@ public class EjecutorComandos {
         File archivoSalida = new File("src\\Practica_Tema1\\salida.txt");
         int salida3 = ejecutor.ejecutarComandoConRedireccion("echo Hola Mundo", archivoSalida);
         System.out.println("Código de salida3: " + salida3);
+
     }//Fin main
 
     /**
      * Ejecuta un comando en el sistema operativo y devuelve el código de salida del proceso.
      *
-     * @param comando El comando a ejecutar. Debe ser una cadena que contenga el comando y sus argumentos.
-     * @return El código de salida del proceso. Un valor de 0 indica éxito, mientras que -1 indica un error.
+     * @param comando El comando a ejecutar.
+     * @return El código de salida del proceso. 0 indica éxito, mientras que -1 indica un error.
      */
     public int ejecutarComando(String comando) {
         try {
+            // Creamos el proceso
             ProcessBuilder builder = new ProcessBuilder("cmd", "/c", comando);
-            Process proceso = builder.start();
+            Process proceso = builder.start(); // Se inicia
             proceso.waitFor();
-            return proceso.exitValue();
+            return proceso.exitValue(); // Devuelve una salida
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
             return -1;
         }
-    }
+    }//Fin ejecutarComando
 
     /**
      * Ejecuta un comando en el sistema operativo y proporciona entrada estándar al proceso.
      *
      * @param comando El comando a ejecutar.
      * @param entrada La entrada que se pasará al comando.
-     * @return El código de salida del proceso. Un valor de 0 indica éxito, mientras que -1 indica un error.
+     * @return El código de salida del proceso. 0 indica éxito, mientras que -1 indica un error.
      */
     public int ejecutarComandoConEntrada(String comando, String entrada) {
         try {
@@ -70,8 +72,8 @@ public class EjecutorComandos {
             // Escribimos la entrada estándar
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(proceso.getOutputStream()));
             writer.write(entrada);
-            writer.flush();
-            writer.close();
+            writer.flush(); // Vacíamos el buffered de salida
+            writer.close(); // Ceramos
 
             proceso.waitFor();
             return proceso.exitValue();
@@ -79,14 +81,14 @@ public class EjecutorComandos {
             e.printStackTrace();
             return -1;
         }
-    }
+    }//Fin ejecutarComandoConEntrada
 
     /**
      * Ejecuta un comando en el sistema operativo y redirige la salida a un archivo especificado.
      *
      * @param comando El comando a ejecutar.
      * @param archivoSalida El archivo donde se redirigirá la salida del comando.
-     * @return El código de salida del proceso. Un valor de 0 indica éxito, mientras que -1 indica un error.
+     * @return El código de salida del proceso. 0 indica éxito, mientras que -1 indica un error.
      */
     public int ejecutarComandoConRedireccion(String comando, File archivoSalida) {
         try {
@@ -104,6 +106,6 @@ public class EjecutorComandos {
             e.printStackTrace();
             return -1;
         }
-    }
+    }//Fin ejecutarComandoConRedireccion
 
 }//Fin class

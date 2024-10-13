@@ -15,10 +15,8 @@ import java.util.Scanner;
 public class GestorTareas {
 
     /**
-     * Método principal que se ejecuta al iniciar la aplicación. Permite al usuario
-     * ingresar rutas de archivos a comprimir y gestiona el proceso de compresión.
-     *
-     * @param args Argumentos de línea de comandos (no se utilizan).
+     * Método principal que se ejecuta al iniciar la aplicación.
+     * Permite al usuario ingresar rutas de archivos a comprimir y gestiona el proceso de compresión.
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

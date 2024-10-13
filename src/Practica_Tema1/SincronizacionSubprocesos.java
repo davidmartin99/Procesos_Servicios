@@ -16,8 +16,8 @@ import java.io.InputStreamReader;
 public class SincronizacionSubprocesos {
 
     /**
-     * Método privado que ejecuta un comando de PowerShell y devuelve el conteo de líneas
-     * o palabras del archivo especificado.
+     * Método privado que ejecuta un comando de PowerShell y
+     * devuelve el conteo de líneas o palabras del archivo especificado.
      *
      * @param comando El comando de PowerShell a ejecutar, que debe devolver un número.
      * @return El conteo como un entero. Devuelve 0 si no se puede obtener el conteo.
@@ -32,6 +32,8 @@ public class SincronizacionSubprocesos {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()))) {
             String resultado;
             while ((resultado = reader.readLine()) != null) {
+                // Si resultado.trim().matches("^\\d+$") devuelve true,
+                // significa que la salida del comando es un valor numérico, que representa el conteo de líneas o palabras.
                 if (resultado.trim().matches("^\\d+$")) {
                     return Integer.parseInt(resultado.trim()); // Si es un número, lo retorna
                 }
@@ -41,7 +43,7 @@ public class SincronizacionSubprocesos {
         proceso.waitFor();
         System.err.println("No se pudo obtener el conteo.");
         return 0;
-    }
+    } //Fin ejecutarComando
 
     /**
      * Método principal que se ejecuta al iniciar la aplicación. Se encarga de definir
