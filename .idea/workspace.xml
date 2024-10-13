@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 12/10">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 13/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/ComprimirArchivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/ComprimirArchivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica_Tema1/EjecutorComandos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica_Tema1/EjecutorComandos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GestorTareas">
+  <component name="RunManager" selected="Application.EjecutorComandos">
     <configuration name="ComprimirArchivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica_Tema1.ComprimirArchivos" />
       <module name="Procesos_Servicios" />
@@ -200,10 +198,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutorComandos" />
         <item itemvalue="Application.GestorTareas" />
         <item itemvalue="Application.SincronizacionSubprocesos" />
         <item itemvalue="Application.ComprimirArchivos" />
-        <item itemvalue="Application.EjecutorComandos" />
         <item itemvalue="Application.ParallelProcessExample" />
       </list>
     </recent_temporary>
@@ -235,7 +233,7 @@
       <workItem from="1728293981799" duration="4684000" />
       <workItem from="1728380973363" duration="1947000" />
       <workItem from="1728485816630" duration="7785000" />
-      <workItem from="1728820607670" duration="3463000" />
+      <workItem from="1728820607670" duration="9661000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -325,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728732030748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="practica 13/10">
+      <option name="closed" value="true" />
+      <created>1728828616966</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728828616966</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +358,8 @@
     <MESSAGE value="practica 2e" />
     <MESSAGE value="practica 2xed" />
     <MESSAGE value="practica 12/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="practica 12/10" />
+    <MESSAGE value="practica 13/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 13/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
