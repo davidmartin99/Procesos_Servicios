@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Ej2_HolaMundoHilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Ej3_HolaMundoConRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Ej4_HolaMundoRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloEjemploDead.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 14">
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Ej5_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/MyHilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/SolicitaSuspender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,8 @@
     "Application.Ej2_HolaMundoHilos.executor": "Run",
     "Application.Ej3_HolaMundoConRunnable.executor": "Run",
     "Application.Ej4_HolaMundoRunnable.executor": "Run",
+    "Application.Ej5_Main (1).executor": "Run",
+    "Application.Ej5_Main.executor": "Run",
     "Application.Ej_2_2_HolaMundoHilos.executor": "Run",
     "Application.EjecutorComandos.executor": "Run",
     "Application.Ejemplo1.executor": "Run",
@@ -121,35 +122,48 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HiloEjemploDead">
-    <configuration name="Ej2_HolaMundoHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej2_HolaMundoHilos" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ej3_HolaMundoConRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej3_HolaMundoConRunnable" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ej5_Main (2)">
     <configuration name="Ej4_HolaMundoRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej4_HolaMundoRunnable" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ej5_Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej5_Main" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ej5_Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej5_Main" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ej5_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej5_Main" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -188,19 +202,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimerHilo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.PrimerHilo" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VisualizarCadena" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema1.VisualizarCadena" />
       <module name="Procesos_Servicios" />
@@ -217,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej5_Main (2)" />
+        <item itemvalue="Application.Ej5_Main (1)" />
+        <item itemvalue="Application.Ej5_Main" />
         <item itemvalue="Application.HiloEjemploDead" />
         <item itemvalue="Application.Ej4_HolaMundoRunnable" />
-        <item itemvalue="Application.Ej3_HolaMundoConRunnable" />
-        <item itemvalue="Application.Ej2_HolaMundoHilos" />
-        <item itemvalue="Application.PrimerHilo" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +253,7 @@
       <workItem from="1728293981799" duration="4684000" />
       <workItem from="1728380973363" duration="1947000" />
       <workItem from="1728553866661" duration="6668000" />
-      <workItem from="1728898934309" duration="3179000" />
+      <workItem from="1728898934309" duration="6071000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -326,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728559363521</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tema 2 MultiHilos 14">
+      <option name="closed" value="true" />
+      <created>1728904610367</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728904610367</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +360,8 @@
     <MESSAGE value="07/10 procesos" />
     <MESSAGE value="Practica procesoss" />
     <MESSAGE value="Practica procesosss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica procesosss" />
+    <MESSAGE value="Tema 2 MultiHilos 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
