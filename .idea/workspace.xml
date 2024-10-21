@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 14.">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/EjemploJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloEjemploInterrup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloPrioridad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/HiloPrioridad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/LiebreTortuga/LiebreThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/LiebreTortuga/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/LiebreTortuga/TortugaThread.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 17/10">
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloCompra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloVenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Inventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/CompartirInf1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +56,7 @@
   "keyToString": {
     "Application.AlmacenarCadena.executor": "Run",
     "Application.ArgumentosValidador.executor": "Run",
+    "Application.CompartirInf1.executor": "Run",
     "Application.ComprimirArchivos.executor": "Run",
     "Application.Ej2_HolaMundoHilos.executor": "Run",
     "Application.Ej3_HolaMundoConRunnable.executor": "Run",
@@ -106,6 +106,7 @@
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.SincronizacionSubprocesos.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
+    "Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor": "Run",
     "Application.UsaHilo.executor": "Run",
     "Application.VisualizarCadena.executor": "Run",
     "Application.VisualizarCadena5.executor": "Run",
@@ -131,26 +132,13 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="EjemploJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.EjemploJoin" />
+  <component name="RunManager" selected="Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main">
+    <configuration name="CompartirInf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.CompartirInf1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HiloEjemploInterrup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.HiloEjemploInterrup" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.BloquesSincronizadosEj7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,7 +151,7 @@
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.BloquesSincronizadosEj7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,7 +164,7 @@
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.BloquesSincronizadosEj7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,6 +199,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tema2_MultiHilos.BloquesSincronizadosEj7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.BloquesSincronizadosEj7.Main" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.BloquesSincronizadosEj7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VisualizarCadena" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema1.VisualizarCadena" />
       <module name="Procesos_Servicios" />
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main" />
+        <item itemvalue="Application.CompartirInf1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HiloPrioridad2" />
         <item itemvalue="Application.HiloPrioridad1" />
-        <item itemvalue="Application.EjemploJoin" />
-        <item itemvalue="Application.HiloEjemploInterrup" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +267,9 @@
       <workItem from="1728992226809" duration="1000" />
       <workItem from="1729066518440" duration="4000" />
       <workItem from="1729153742067" duration="3653000" />
-      <workItem from="1729163033861" duration="3100000" />
+      <workItem from="1729163033861" duration="3407000" />
+      <workItem from="1729233328988" duration="34000" />
+      <workItem from="1729503884400" duration="6206000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -356,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728907571040</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tema 2 MultiHilos 17/10">
+      <option name="closed" value="true" />
+      <created>1729166843131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729166843131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +394,8 @@
     <MESSAGE value="Practica procesosss" />
     <MESSAGE value="Tema 2 MultiHilos 14" />
     <MESSAGE value="Tema 2 MultiHilos 14." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 14." />
+    <MESSAGE value="Tema 2 MultiHilos 17/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 17/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
