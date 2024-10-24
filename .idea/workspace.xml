@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 24/10">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Bloqueo_Hilos/BloqueoHilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Bloqueo_Hilos/ObjetoCompartido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Metodos_Sincronizados/CompartirInf3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Metodos_Sincronizados/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Metodos_Sincronizados/SacarDinero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Metodos_Sincronizados/Saldo.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 24/10 .">
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Producto_Consumidor/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Producto_Consumidor/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Producto_Consumidor/ProducConsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Producto_Consumidor/Productor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,7 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BloqueoHilos">
+  <component name="RunManager" selected="Application.ProducConsum">
     <configuration name="BloqueoHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Bloqueo_Hilos.BloqueoHilos" />
       <module name="Procesos_Servicios" />
@@ -188,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.LiebreTortuga.Main" />
+    <configuration name="ProducConsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Producto_Consumidor.ProducConsum" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.LiebreTortuga.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.Producto_Consumidor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducConsum" />
         <item itemvalue="Application.BloqueoHilos" />
         <item itemvalue="Application.CompartirInf3" />
         <item itemvalue="Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main" />
         <item itemvalue="Application.CompartirInf1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +271,7 @@
       <workItem from="1729233328988" duration="34000" />
       <workItem from="1729503884400" duration="6536000" />
       <workItem from="1729581043005" duration="6000" />
-      <workItem from="1729762943042" duration="4586000" />
+      <workItem from="1729762943042" duration="6156000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -387,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729767207425</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tema 2 MultiHilos 24/10 .">
+      <option name="closed" value="true" />
+      <created>1729770369418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729770369418</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +423,8 @@
     <MESSAGE value="Tema 2 MultiHilos 17/10" />
     <MESSAGE value="Tema 2 MultiHilos 21/10" />
     <MESSAGE value="Tema 2 MultiHilos 24/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 24/10" />
+    <MESSAGE value="Tema 2 MultiHilos 24/10 ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 24/10 ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
