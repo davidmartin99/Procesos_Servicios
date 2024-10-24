@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 17/10">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloCompra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloVenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/CompartirInf1.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 21/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/HiloVenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Inventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/BloquesSincronizadosEj7/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,81 +51,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlmacenarCadena.executor": "Run",
-    "Application.ArgumentosValidador.executor": "Run",
-    "Application.CompartirInf1.executor": "Run",
-    "Application.ComprimirArchivos.executor": "Run",
-    "Application.Ej2_HolaMundoHilos.executor": "Run",
-    "Application.Ej3_HolaMundoConRunnable.executor": "Run",
-    "Application.Ej4_HolaMundoRunnable.executor": "Run",
-    "Application.Ej5_Main (1).executor": "Run",
-    "Application.Ej5_Main (2).executor": "Run",
-    "Application.Ej5_Main.executor": "Run",
-    "Application.Ej_2_2_HolaMundoHilos.executor": "Run",
-    "Application.EjecutorComandos.executor": "Run",
-    "Application.Ejemplo1.executor": "Run",
-    "Application.Ejemplo2.executor": "Run",
-    "Application.Ejemplo3.executor": "Run",
-    "Application.Ejemplo4.executor": "Run",
-    "Application.Ejemplo5.executor": "Run",
-    "Application.Ejemplo6.executor": "Run",
-    "Application.Ejemplo7.executor": "Run",
-    "Application.Ejemplo8.executor": "Run",
-    "Application.Ejemplo9.executor": "Run",
-    "Application.EjemploJoin.executor": "Run",
-    "Application.EjemploLectura.executor": "Run",
-    "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
-    "Application.GestorTareas.executor": "Run",
-    "Application.HiloEjemplo1.executor": "Run",
-    "Application.HiloEjemplo2.executor": "Run",
-    "Application.HiloEjemplo2Grupos.executor": "Run",
-    "Application.HiloEjemploDead.executor": "Run",
-    "Application.HiloEjemploInterrup.executor": "Run",
-    "Application.HiloPrioridad1.executor": "Run",
-    "Application.HiloPrioridad2.executor": "Run",
-    "Application.Incrementador1.executor": "Run",
-    "Application.Incrementador2.executor": "Run",
-    "Application.IncrementadorConBloqueo.executor": "Run",
-    "Application.LanzaAlmacenarCadena.executor": "Run",
-    "Application.LanzaLeerCadena_6.executor": "Run",
-    "Application.LanzaLeerNombre.executor": "Run",
-    "Application.LanzaSumarNumeros.executor": "Run",
-    "Application.LanzaValidador.executor": "Run",
-    "Application.LanzaVisualizarCadena.executor": "Run",
-    "Application.LanzaVisualizarCadena2.executor": "Run",
-    "Application.LanzaVisualizarCadena5.executor": "Run",
-    "Application.LeerCadena_6.executor": "Run",
-    "Application.LeerNombre.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ParallelProcessExample.executor": "Run",
-    "Application.PrimerHilo.executor": "Run",
-    "Application.ProcesosCooperativos.executor": "Run",
-    "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
-    "Application.SincronizacionSubprocesos.executor": "Run",
-    "Application.SumarNumeros.executor": "Run",
-    "Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor": "Run",
-    "Application.UsaHilo.executor": "Run",
-    "Application.VisualizarCadena.executor": "Run",
-    "Application.VisualizarCadena5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlmacenarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArgumentosValidador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompartirInf1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComprimirArchivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2_HolaMundoHilos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3_HolaMundoConRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej4_HolaMundoRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej_2_2_HolaMundoHilos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjecutorComandos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploJoin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploLectura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EntradaSalidaERROR_Ej1_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GestorTareas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo2Grupos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemploDead.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemploInterrup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloPrioridad1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloPrioridad2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Incrementador1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Incrementador2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncrementadorConBloqueo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaAlmacenarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaLeerCadena_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaLeerNombre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaSumarNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaValidador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeerCadena_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeerNombre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParallelProcessExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimerHilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcesosCooperativos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcessBuilder_Redirect_Ej8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SincronizacionSubprocesos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumarNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsaHilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisualizarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisualizarCadena5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tema2_MultiHilos" />
@@ -269,7 +268,9 @@
       <workItem from="1729153742067" duration="3653000" />
       <workItem from="1729163033861" duration="3407000" />
       <workItem from="1729233328988" duration="34000" />
-      <workItem from="1729503884400" duration="6206000" />
+      <workItem from="1729503884400" duration="6536000" />
+      <workItem from="1729581043005" duration="6000" />
+      <workItem from="1729762943042" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -367,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729166843131</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tema 2 MultiHilos 21/10">
+      <option name="closed" value="true" />
+      <created>1729512626170</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729512626170</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +404,8 @@
     <MESSAGE value="Tema 2 MultiHilos 14" />
     <MESSAGE value="Tema 2 MultiHilos 14." />
     <MESSAGE value="Tema 2 MultiHilos 17/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 17/10" />
+    <MESSAGE value="Tema 2 MultiHilos 21/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 21/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

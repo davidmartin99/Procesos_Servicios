@@ -1,9 +1,8 @@
 package Tema2_MultiHilos.BloquesSincronizadosEj7;
 
-public class HiloCompra extends Thread{
-    Producto producto;
-    Inventario inventario;
-    int cantidad;
+public class HiloCompra extends Thread {
+    private final Producto producto;
+    private final Inventario inventario;
 
     public HiloCompra(String nombre, Producto producto, Inventario inventario) {
         setName(nombre);
@@ -11,20 +10,24 @@ public class HiloCompra extends Thread{
         this.inventario = inventario;
     }
 
+    @Override
     public void run() {
-        Producto interno;
-        int actual = 0;
+        synchronized (inventario) {
+            if (inventario.existeProducto(producto.getId())) {
+                Producto interno = inventario.lista.stream()
+                        .filter(p -> p.getId() == producto.getId())
+                        .findFirst()
+                        .orElse(null);
 
-        if(inventario.existeProducto(producto)) {
-            interno = inventario.lista.get(producto.getId());
-            actual = interno.getCantidad();
-            actual = actual + producto.getCantidad();
-
-            interno.setCantidad(actual);
-        }else{
-            inventario.lista.add(producto);
-        }//Fin if-else
-
-    }//Fin run
-
-}//Fin class
+                if (interno != null) {
+                    int nuevaCantidad = interno.getCantidad() + producto.getCantidad();
+                    interno.setCantidad(nuevaCantidad);
+                    System.out.println(getName() + " ha comprado " + producto.getCantidad() + " de " + interno);
+                }
+            } else {
+                inventario.addProducto(producto);
+                System.out.println(getName() + " ha añadido " + producto + " al inventario.");
+            }
+        }
+    }
+}

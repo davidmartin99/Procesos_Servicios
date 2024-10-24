@@ -2,32 +2,32 @@ package Tema2_MultiHilos.BloquesSincronizadosEj7;
 
 import java.util.ArrayList;
 
-/**
- * Crea una clase Inventario que contenga una lista de productos y
- * métodos para comprar productos.
- */
-
 public class Inventario {
     // Lista de Productos
-    ArrayList<Producto> lista = new ArrayList<>();
+    final ArrayList<Producto> lista = new ArrayList<>();
 
-    // Metodo para comprar productos
-    boolean addProducto(Producto producto) {
+    // Metodo para agregar productos
+    public synchronized boolean addProducto(Producto producto) {
+        for (Producto p : lista) {
+            if (p.getId() == producto.getId()) {
+                return false; // No se agrega si ya existe
+            }
+        }
         return lista.add(producto);
     }
 
     // Metodo para eliminar productos
-    boolean eliminarProducto(Producto producto) {
-        return lista.remove(producto);
+    public synchronized boolean eliminarProducto(Producto producto) {
+        return lista.removeIf(p -> p.getId() == producto.getId());
     }
 
     // Metodo para ver si existe producto
-    boolean existeProducto(Producto producto) {
-        return lista.contains(producto);
+    public synchronized boolean existeProducto(int id) {
+        return lista.stream().anyMatch(p -> p.getId() == id);
     }
 
     @Override
-    public String toString() {
+    public synchronized String toString() {
         return lista.toString();
     }
-}//Fin class
+}

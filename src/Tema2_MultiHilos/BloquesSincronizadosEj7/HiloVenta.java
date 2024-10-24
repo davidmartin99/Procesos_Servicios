@@ -1,9 +1,8 @@
 package Tema2_MultiHilos.BloquesSincronizadosEj7;
 
-public class HiloVenta extends Thread{
-    Producto producto;
-    Inventario inventario;
-    int cantidad;
+public class HiloVenta extends Thread {
+    private final Producto producto;
+    private final Inventario inventario;
 
     public HiloVenta(String nombre, Producto producto, Inventario inventario) {
         setName(nombre);
@@ -11,30 +10,31 @@ public class HiloVenta extends Thread{
         this.inventario = inventario;
     }
 
+    @Override
     public void run() {
-        Producto interno;
-        int actual = 0;
+        synchronized (inventario) {
+            if (inventario.existeProducto(producto.getId())) {
+                Producto interno = inventario.lista.stream()
+                        .filter(p -> p.getId() == producto.getId())
+                        .findFirst()
+                        .orElse(null);
 
-        if(inventario.existeProducto(producto)) {
-            interno = inventario.lista.get(producto.getId());
-            actual = interno.getCantidad();
-
-            //Si hay cantidad
-            if(actual>= producto.getCantidad()){
-                actual = actual - producto.getCantidad();
-                interno.setCantidad(actual);
-                if(actual==0){
-                    inventario.eliminarProducto(interno); //Metodo de Inventario
+                if (interno != null) {
+                    int actual = interno.getCantidad();
+                    if (actual >= producto.getCantidad()) {
+                        actual -= producto.getCantidad();
+                        interno.setCantidad(actual);
+                        if (actual == 0) {
+                            inventario.eliminarProducto(interno);
+                        }
+                        System.out.println(getName() + " ha vendido " + producto.getCantidad() + " de " + interno);
+                    } else {
+                        System.err.println("Error, no hay suficiente cantidad. Cantidad actual: " + actual);
+                    }
                 }
-            }else{
-                System.err.println("Error, no hay suficiente cantidad" +
-                        "cantidad actual: "+ interno.getCantidad());
+            } else {
+                System.err.println("Error, el producto no existe.");
             }
-
-        }else{
-            System.err.println("Error el producto no existe");
-        }//Fin if-else
-
-    }//Fin run
-
-}//Fin class
+        }
+    }
+}
