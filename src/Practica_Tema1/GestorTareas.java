@@ -44,7 +44,7 @@ public class GestorTareas {
         List<String> resultados = new ArrayList<>();
 
         for (File archivo : archivos) {
-            String nombreTar = archivo.getAbsolutePath() + ".tar"; // Nombre del archivo tar
+            String nombreTar = archivo + ".tar"; // Nombre del archivo tar
 
             // Crear el proceso de compresión
             ProcessBuilder pb = new ProcessBuilder("tar", "-cvf", nombreTar, archivo.getAbsolutePath());
