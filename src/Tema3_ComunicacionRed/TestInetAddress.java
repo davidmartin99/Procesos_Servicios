@@ -7,6 +7,7 @@ public class TestInetAddress {
     public static void main(String[] args) {
         InetAddress dir = null;
 
+        System.out.println("===========================================");
         System.out.println("======= SALIDA PARA LOCALHOST: ");
         try {
             // LOCALHOST
@@ -14,6 +15,7 @@ public class TestInetAddress {
             pruebaMetodos(dir);
 
             // URL www.google.es
+            System.out.println("===========================================");
             System.out.println("========= SALIDA PARA UNA URL:");
             dir = InetAddress.getByName("www.google.es");
             pruebaMetodos(dir);
