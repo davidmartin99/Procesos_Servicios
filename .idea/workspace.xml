@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 24/10 ...">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 2 MultiHilos 31/10 ...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +129,7 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GestorTareas">
+  <component name="RunManager" selected="Application.TestInetAddress">
     <configuration name="ComprimirArchivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica_Tema1.ComprimirArchivos" />
       <module name="Procesos_Servicios" />
@@ -183,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducConsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Producto_Consumidor.ProducConsum" />
+    <configuration name="SincronizacionSubprocesos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.SincronizacionSubprocesos" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Producto_Consumidor.*" />
+          <option name="PATTERN" value="Practica_Tema1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SincronizacionSubprocesos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.SincronizacionSubprocesos" />
+    <configuration name="TestInetAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.TestInetAddress" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica_Tema1.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInetAddress" />
         <item itemvalue="Application.GestorTareas" />
         <item itemvalue="Application.EjecutorComandos" />
         <item itemvalue="Application.SincronizacionSubprocesos" />
         <item itemvalue="Application.ComprimirArchivos" />
-        <item itemvalue="Application.ProducConsum" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +273,7 @@
       <workItem from="1730107204642" duration="3000" />
       <workItem from="1730112114834" duration="4102000" />
       <workItem from="1730360379391" duration="917000" />
+      <workItem from="1730374871456" duration="1597000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -418,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730119477674</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Tema 2 MultiHilos 31/10 ...">
+      <option name="closed" value="true" />
+      <created>1730374966223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730374966223</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +460,8 @@
     <MESSAGE value="Tema 2 MultiHilos 24/10 ." />
     <MESSAGE value="Tema 2 MultiHilos 24/10 .." />
     <MESSAGE value="Tema 2 MultiHilos 24/10 ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 24/10 ..." />
+    <MESSAGE value="Tema 2 MultiHilos 31/10 ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 2 MultiHilos 31/10 ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
