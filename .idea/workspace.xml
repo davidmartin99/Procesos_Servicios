@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 3.Comunicaciones 31/10" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 3.Comunicaciones 31/10." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,9 +128,9 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInetAddress">
-    <configuration name="ComprimirArchivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.ComprimirArchivos" />
+  <component name="RunManager" selected="Application.Ejemplo1URL">
+    <configuration name="EjecutorComandos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.EjecutorComandos" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutorComandos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica_Tema1.EjecutorComandos" />
+    <configuration name="Ejemplo1URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejemplo1URL" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica_Tema1.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejemplo1URL" />
         <item itemvalue="Application.TestInetAddress" />
         <item itemvalue="Application.GestorTareas" />
         <item itemvalue="Application.EjecutorComandos" />
         <item itemvalue="Application.SincronizacionSubprocesos" />
-        <item itemvalue="Application.ComprimirArchivos" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,7 @@
       <workItem from="1730107204642" duration="3000" />
       <workItem from="1730112114834" duration="4102000" />
       <workItem from="1730360379391" duration="917000" />
-      <workItem from="1730374871456" duration="2085000" />
+      <workItem from="1730374871456" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -434,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730379220524</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Tema 3.Comunicaciones 31/10.">
+      <option name="closed" value="true" />
+      <created>1730379608857</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730379608857</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +477,8 @@
     <MESSAGE value="Tema 2 MultiHilos 24/10 ..." />
     <MESSAGE value="Tema 2 MultiHilos 31/10 ..." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 3.Comunicaciones 31/10" />
+    <MESSAGE value="Tema 3.Comunicaciones 31/10." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 3.Comunicaciones 31/10." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
