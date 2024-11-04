@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 3.Comunicaciones 31/10..">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_c.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica Tema2">
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio2/GeneradorArchivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio2/GeneradorArchivos_d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio2/GeneradorCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio2/GeneradorIdentAlfa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejemplo2URL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/Ejercicio_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/TareaCalculo_c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_c.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,7 @@
     "Application.Ejemplo1.executor": "Run",
     "Application.Ejemplo1URL.executor": "Run",
     "Application.Ejemplo2.executor": "Run",
+    "Application.Ejemplo2URL.executor": "Run",
     "Application.Ejemplo3.executor": "Run",
     "Application.Ejemplo4.executor": "Run",
     "Application.Ejemplo5.executor": "Run",
@@ -80,6 +86,7 @@
     "Application.EjemploLectura.executor": "Run",
     "Application.Ejercicio_1.executor": "Run",
     "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
+    "Application.GeneradorIdentAlfa.executor": "Run",
     "Application.GestorTareas.executor": "Run",
     "Application.HiloEjemplo1.executor": "Run",
     "Application.HiloEjemplo2.executor": "Run",
@@ -138,7 +145,7 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio_1">
+  <component name="RunManager" selected="Application.GeneradorIdentAlfa">
     <configuration name="Ej2_HolaMundoHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Ej2_HolaMundoHilos" />
       <module name="Procesos_Servicios" />
@@ -152,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio_1" />
+    <configuration name="Ejemplo2URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejemplo2URL" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +172,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HiloEjemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.HiloEjemplo2" />
+    <configuration name="Ejercicio_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.Ejercicio_1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneradorIdentAlfa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio2.GeneradorIdentAlfa" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,24 +213,11 @@
       </method>
     </configuration>
     <configuration name="TareaCalculo_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.TareaCalculo_a" />
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.TareaCalculo_a" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsaPrimerHiloR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.UsaPrimerHiloR" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GeneradorIdentAlfa" />
+        <item itemvalue="Application.Ejemplo2URL" />
         <item itemvalue="Application.Ejercicio_1" />
         <item itemvalue="Application.TareaCalculo_a" />
         <item itemvalue="Application.Ej2_HolaMundoHilos" />
-        <item itemvalue="Application.UsaPrimerHiloR" />
-        <item itemvalue="Application.HiloEjemplo2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +290,8 @@
       <workItem from="1730112114834" duration="4102000" />
       <workItem from="1730360379391" duration="917000" />
       <workItem from="1730374871456" duration="2641000" />
-      <workItem from="1730705852861" duration="6138000" />
+      <workItem from="1730705852861" duration="6351000" />
+      <workItem from="1730718698059" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -469,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730706429642</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Practica Tema2">
+      <option name="closed" value="true" />
+      <created>1730712186071</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730712186071</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +522,8 @@
     <MESSAGE value="Tema 3.Comunicaciones 31/10" />
     <MESSAGE value="Tema 3.Comunicaciones 31/10." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 3.Comunicaciones 31/10.." />
+    <MESSAGE value="Practica Tema2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Tema2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
