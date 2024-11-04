@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 3.Comunicaciones 31/10." />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Tema 3.Comunicaciones 31/10.." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +61,7 @@
     "Application.Ej_2_2_HolaMundoHilos.executor": "Run",
     "Application.EjecutorComandos.executor": "Run",
     "Application.Ejemplo1.executor": "Run",
+    "Application.Ejemplo1URL.executor": "Run",
     "Application.Ejemplo2.executor": "Run",
     "Application.Ejemplo3.executor": "Run",
     "Application.Ejemplo4.executor": "Run",
@@ -272,7 +273,7 @@
       <workItem from="1730107204642" duration="3000" />
       <workItem from="1730112114834" duration="4102000" />
       <workItem from="1730360379391" duration="917000" />
-      <workItem from="1730374871456" duration="2430000" />
+      <workItem from="1730374871456" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -442,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730379608857</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Tema 3.Comunicaciones 31/10..">
+      <option name="closed" value="true" />
+      <created>1730380027518</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730380027518</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +487,8 @@
     <MESSAGE value="Tema 2 MultiHilos 31/10 ..." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10" />
     <MESSAGE value="Tema 3.Comunicaciones 31/10." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 3.Comunicaciones 31/10." />
+    <MESSAGE value="Tema 3.Comunicaciones 31/10.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 3.Comunicaciones 31/10.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
