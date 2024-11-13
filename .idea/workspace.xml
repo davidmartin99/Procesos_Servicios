@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="practica 2 05/11">
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio4/Colaborar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio4/Lenguaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio5/Ejercicio_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio5/HiloPrioridades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/EstadosHilo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/CuentaVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/CuentaVocales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/Ejercicio_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/Ejercicio_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
     "Application.Ejemplo8.executor": "Run",
     "Application.Ejemplo9.executor": "Run",
     "Application.EjemploLectura.executor": "Run",
+    "Application.Ejercicio_1.executor": "Run",
     "Application.Ejercicio_6.executor": "Run",
     "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
     "Application.EstadosHilo.executor": "Run",
@@ -92,6 +91,8 @@
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.SincronizacionSubprocesos.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
+    "Application.TareaCalculo_a.executor": "Run",
+    "Application.Tema2_MultiHilos.Practica_Tema2.Ejercicio1.TareaCalculo_a.executor": "Run",
     "Application.UsaHilo.executor": "Run",
     "Application.VisualizarCadena.executor": "Run",
     "Application.VisualizarCadena5.executor": "Run",
@@ -113,26 +114,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EstadosHilo">
-    <configuration name="Colaborar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio4.Colaborar" />
+  <component name="RunManager" selected="Application.Ejercicio_1">
+    <configuration name="Ejercicio_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.Ejercicio_1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaVocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.CuentaVocales" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio4.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +168,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lenguaje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio4.Lenguaje" />
+    <configuration name="TareaCalculo_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TareaCalculo_a" />
+      <module name="Procesos_Servicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.TareaCalculo_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.TareaCalculo_a" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio4.*" />
+          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.Ejercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio_1" />
+        <item itemvalue="Application.Tema2_MultiHilos.Practica_Tema2.Ejercicio1.TareaCalculo_a" />
+        <item itemvalue="Application.TareaCalculo_a" />
         <item itemvalue="Application.EstadosHilo" />
         <item itemvalue="Application.Ejercicio_6" />
-        <item itemvalue="Application.Colaborar" />
-        <item itemvalue="Application.Lenguaje" />
-        <item itemvalue="Application.CuentaVocales" />
       </list>
     </recent_temporary>
   </component>

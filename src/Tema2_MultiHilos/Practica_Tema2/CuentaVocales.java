@@ -3,7 +3,7 @@ package Tema2_MultiHilos.Practica_Tema2;
 public class CuentaVocales {
     private static final String TEXTO = "Holaa que tal estas? yo muy bien y tu? genial!";
     private static int contadorTotal = 0; // Variable compartida
-    private static final Object lock = new Object(); // Objeto de bloqueo para sincronización
+    public static final Object lock = new Object(); // Objeto de bloqueo para sincronización
 
     public static void main(String[] args) {
         // Cada hilo creado contará una vocal
