@@ -20,6 +20,7 @@ public class TareaCalculo_a extends Thread{
      */
 @Override
     public void run() {
+
         while(true){
             try{
                 //Creamos un aleatorio entre 100 y 1000
@@ -28,7 +29,7 @@ public class TareaCalculo_a extends Thread{
                 suma += n; //Sumamos numeros
 
                 //Mostramos en pantalla
-                System.out.println("("+getName()+") Resultado:" + suma);
+                System.out.println("Numero: "+ n + " Resultado:" + suma);
 
                 //Esperamos 10s para el siguiente
                 Thread.sleep(1000);
@@ -40,5 +41,11 @@ public class TareaCalculo_a extends Thread{
         }//Fin while
 
     }//Fin run
+
+    // Método principal para probar la clase
+    public static void main(String[] args) {
+        TareaCalculo_a tarea = new TareaCalculo_a();  // Crear la instancia del hilo
+        tarea.start();  // Iniciar el hilo
+    }
 
 }//Fin class

@@ -29,11 +29,17 @@ public class Ejercicio_1 {
          */
 
         //Creo el bucle for para que me genere 30 hilos
-         for(int i = 1; i <= 30; i++){
-             TareaCalculo_c tarea2 = new TareaCalculo_c();
-             Thread hilo2 = new Thread(tarea2, "Hilo_" + i); //Nombre del hilo
-             hilo2.start(); //Iniciamos el hilo
-         }//Fin for
+                  for(int i = 1; i <= 30; i++){
+                      TareaCalculo_a hilo1 = new TareaCalculo_a();
+                      hilo1.setName("Hilo" + i); //Nombre del hilo
+                      hilo1.start(); //Lanzamos el hilo
+                  }//Fin for
+        //Creo el bucle for para que me genere 30 hilos
+         //for(int i = 1; i <= 30; i++){
+         //    TareaCalculo_c tarea2 = new TareaCalculo_c();
+         //   Thread hilo2 = new Thread(tarea2, "Hilo_" + i); //Nombre del hilo
+         //    hilo2.start(); //Iniciamos el hilo
+         //}//Fin for
 
     }//Fin main
 
