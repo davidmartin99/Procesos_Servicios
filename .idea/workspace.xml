@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica Tema2 12/11..">
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/Ejercicio1/Ej_1_ClienteTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/Ejercicio1/Ej_1_ServidorTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/TCPClienteBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/TCPServidorBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/TCPejemplo1Servidor.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica Tema2 14/11.">
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/Ejercicio2/ClienteMinusculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/Ejercicio2/ServidorMayusculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsTCP/ServidorCuadrado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datos1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datos2.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     "Application.AlmacenarCadena.executor": "Run",
     "Application.ArgumentosValidador.executor": "Run",
     "Application.BloqueoHilos.executor": "Run",
+    "Application.ClienteMinusculas.executor": "Run",
     "Application.CompartirInf1.executor": "Run",
     "Application.CompartirInf3.executor": "Run",
     "Application.ComprimirArchivos.executor": "Run",
@@ -116,10 +117,13 @@
     "Application.ProcesosCooperativos.executor": "Run",
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.ProducConsum.executor": "Run",
+    "Application.ServidorMayusculas.executor": "Run",
     "Application.SincronizacionSubprocesos.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
     "Application.TCPClienteBasico.executor": "Run",
     "Application.TCPServidorBasico.executor": "Run",
+    "Application.TCPejemplo1Cliente.executor": "Run",
+    "Application.TCPejemplo1Servidor.executor": "Run",
     "Application.TareaCalculo_a.executor": "Run",
     "Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor": "Run",
     "Application.TestInetAddress.executor": "Run",
@@ -149,13 +153,13 @@
       <recent name="Tema2_MultiHilos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TCPejemplo1Cliente">
-    <configuration name="CuentaVocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema2_MultiHilos.Practica_Tema2.CuentaVocales" />
+  <component name="RunManager" selected="Application.ClienteCuadrado">
+    <configuration name="ClienteCuadrado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio3.ClienteCuadrado" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema2_MultiHilos.Practica_Tema2.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,25 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ej_1_ClienteTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio1.Ej_1_ClienteTCP" />
+    <configuration name="ClienteMinusculas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio2.ClienteMinusculas" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ej_1_ServidorTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio1.Ej_1_ServidorTCP" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio1.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPejemplo1Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.TCPejemplo1Cliente" />
+    <configuration name="ServidorCuadrado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio3.ServidorCuadrado" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +207,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPejemplo1Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.TCPejemplo1Servidor" />
+    <configuration name="ServidorMayusculas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio2.ServidorMayusculas" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPejemplo1Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsTCP.TCPejemplo1Cliente" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsTCP.Ejercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClienteCuadrado" />
+        <item itemvalue="Application.ServidorCuadrado" />
+        <item itemvalue="Application.ClienteMinusculas" />
+        <item itemvalue="Application.ServidorMayusculas" />
         <item itemvalue="Application.TCPejemplo1Cliente" />
-        <item itemvalue="Application.TCPejemplo1Servidor" />
-        <item itemvalue="Application.Ej_1_ClienteTCP" />
-        <item itemvalue="Application.Ej_1_ServidorTCP" />
-        <item itemvalue="Application.CuentaVocales" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731400356943</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Practica Tema2 14/11.">
+      <option name="closed" value="true" />
+      <created>1731588830787</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731588830787</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +571,8 @@
     <MESSAGE value="Practica Tema2 07/11." />
     <MESSAGE value="Practica Tema2 07/11.." />
     <MESSAGE value="Practica Tema2 12/11.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Tema2 12/11.." />
+    <MESSAGE value="Practica Tema2 14/11." />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Tema2 14/11." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
