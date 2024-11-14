@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica Tema2 13/11">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="Practica Tema2 12/11..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/Ejercicio_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/Ejercicio_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2_MultiHilos/Practica_Tema2/Ejercicio1/TareaCalculo_a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,8 +290,7 @@
       <workItem from="1731411458526" duration="2394000" />
       <workItem from="1731414670258" duration="33000" />
       <workItem from="1731489982934" duration="2005000" />
-      <workItem from="1731494517956" duration="1376000" />
-      <workItem from="1731569825717" duration="405000" />
+      <workItem from="1731494517956" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -507,15 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731400356943</updated>
     </task>
-    <task id="LOCAL-00028" summary="Practica Tema2 13/11">
-      <option name="closed" value="true" />
-      <created>1731495851011</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1731495851011</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,8 +549,7 @@
     <MESSAGE value="Practica Tema2 07/11." />
     <MESSAGE value="Practica Tema2 07/11.." />
     <MESSAGE value="Practica Tema2 12/11.." />
-    <MESSAGE value="Practica Tema2 13/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Tema2 13/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Tema2 12/11.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

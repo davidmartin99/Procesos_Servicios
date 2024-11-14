@@ -1,51 +1,40 @@
 package Tema2_MultiHilos.Practica_Tema2.Ejercicio1;
 
+import static Tema2_MultiHilos.Practica_Tema2.CuentaVocales.lock;
+
 /**
  * Clase que representa una tarea de cálculo que extiende la clase Thread.
  * Cada hilo de esta clase genera números aleatorios y los suma.
+ *
  * @author David
  * @date 04/11/2024
  */
-
-public class TareaCalculo_a extends Thread{
-    //Variable de la suma total
-    public int suma = 0;
-    //Variable del numero aleatorio
-    public int n;
+public class TareaCalculo_a extends Thread {
+    // Variable de la suma total
+    private int suma = 0;
 
     /**
      * Método que se ejecuta cuando se inicia el hilo.
      * En un bucle infinito, crea un número aleatorio, lo va sumando al anterior,
      * y muestra el resultado en la consola.
      */
-@Override
+    @Override
     public void run() {
+        synchronized (lock) {
+            try {
+                // Genera un número aleatorio entre 100 y 1,000
+                int numero = (int) (Math.random() * 901) + 100;
+                suma += numero; // Suma el número al acumulado
 
-        while(true){
-            try{
-                //Creamos un aleatorio entre 100 y 1000
-                n = (int) (Math.random() * 901) + 100;
+                // Muestra el valor acumulado en la consola con el nombre del hilo
+                System.out.println(getName() + " - Valor acumulado: " + suma);
 
-                suma += n; //Sumamos numeros
-
-                //Mostramos en pantalla
-                System.out.println("Numero: "+ n + " Resultado:" + suma);
-
-                //Esperamos 10s para el siguiente
-                Thread.sleep(1000);
-
-            }catch (InterruptedException e){ //Lanzamos un mensaje de error
-                System.err.println("Hilo "+ getName() +" interrumpido.");
-                break; //Detenemos el hilo
-            }//Fin try-catch
-        }//Fin while
-
-    }//Fin run
-
-    // Método principal para probar la clase
-    public static void main(String[] args) {
-        TareaCalculo_a tarea = new TareaCalculo_a();  // Crear la instancia del hilo
-        tarea.start();  // Iniciar el hilo
+                // Espera 10 segundos antes de permitir que el siguiente hilo entre
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                System.out.println(getName() + " ha sido interrumpido.");
+                Thread.currentThread().interrupt();
+            }
+        }
     }
-
-}//Fin class
+}
