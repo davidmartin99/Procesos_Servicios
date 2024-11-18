@@ -56,7 +56,7 @@ public class EstadosHilo {
 
         try {
             // Esperar que el hilo entre en el estado Ejecutable
-            Thread.sleep(1000); // Pausa el hilo principal para dar tiempo al hilo creado
+            Thread.sleep(10); // Pausa el hilo principal para dar tiempo al hilo creado
             System.out.println("Estado después de dormir 1 segundo: " + hilo.getState());
 
             // Notificar al hilo para que salga del estado Bloqueado
