@@ -31,7 +31,7 @@ public class Ejercicio_1 {
 
         // Creo el bucle for para que me genere 30 hilos
          for(int i = 1; i <= 30; i++){
-             TareaCalculo_b tarea2 = new TareaCalculo_b();
+             TareaCalculo_c tarea2 = new TareaCalculo_c();
             Thread hilo2 = new Thread(tarea2, "Hilo_" + i); //Nombre del hilo
              hilo2.start(); //Iniciamos el hilo
          }//Fin for

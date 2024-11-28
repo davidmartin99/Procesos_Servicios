@@ -35,7 +35,7 @@ public class TareaCalculo_c implements Runnable{
                 System.out.println("(" + Thread.currentThread().getName() + ") Valor acumulado: " + suma);
 
                 //Detener el hilo si la suma llega a 1.000.000
-                if (suma >= 1000000) {
+                if (suma >= 1000) {
                     detenido = true;
                 }
 
