@@ -193,7 +193,7 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteAdivina">
+  <component name="RunManager" selected="Application.JugadorAdivina">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.Cliente" />
       <module name="Procesos_Servicios" />
@@ -220,13 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeerNombre" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema1.LeerNombre" />
+    <configuration name="JugadorAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.JugadorAdivina" />
       <module name="Procesos_Servicios" />
-      <option name="PROGRAM_PARAMETERS" value="David" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema1.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.Servidor" />
+    <configuration name="LeerNombre" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema1.LeerNombre" />
       <module name="Procesos_Servicios" />
+      <option name="PROGRAM_PARAMETERS" value="David" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
+          <option name="PATTERN" value="Tema1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServidorAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.ServidorAdivina" />
+    <configuration name="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JugadorAdivina" />
+        <item itemvalue="Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" />
         <item itemvalue="Application.ClienteAdivina" />
         <item itemvalue="Application.ServidorAdivina (1)" />
         <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Servidor" />
-        <item itemvalue="Application.ServidorAdivina (3)" />
       </list>
     </recent_temporary>
   </component>
