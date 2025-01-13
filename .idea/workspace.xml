@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="09/01">
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsUDP/UDP/Ejercicio11/Curso.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="09/01.">
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Apartado3_8_Multihilos/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Apartado3_8_Multihilos/HiloServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Apartado3_8_Multihilos/HilosCompartenObjetos/ClienteAdivina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Apartado3_8_Multihilos/HilosCompartenObjetos/ServidorAdivina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Apartado3_8_Multihilos/Servidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +58,7 @@
     "Application.ArgumentosValidador.executor": "Run",
     "Application.BloqueoHilos.executor": "Run",
     "Application.Cliente.executor": "Run",
+    "Application.ClienteAdivina.executor": "Run",
     "Application.ClienteCuadrado.executor": "Run",
     "Application.ClienteMinusculas.executor": "Run",
     "Application.ClienteTCP.executor": "Run",
@@ -130,6 +135,10 @@
     "Application.ProcesosCooperativos.executor": "Run",
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.ProducConsum.executor": "Run",
+    "Application.Servidor.executor": "Run",
+    "Application.ServidorAdivina (1).executor": "Run",
+    "Application.ServidorAdivina (2).executor": "Run",
+    "Application.ServidorAdivina (3).executor": "Run",
     "Application.ServidorAdivina.executor": "Run",
     "Application.ServidorCuadrado.executor": "Run",
     "Application.ServidorMayusculas.executor": "Run",
@@ -147,6 +156,8 @@
     "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPcliente.executor": "Run",
     "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPservidor.executor": "Run",
     "Application.TestInetAddress.executor": "Run",
+    "Application.UDPClienteAlumno.executor": "Run",
+    "Application.UDPServidorAlumno.executor": "Run",
     "Application.UDPcliente.executor": "Run",
     "Application.UDPservidor.executor": "Run",
     "Application.UsaHilo.executor": "Run",
@@ -182,13 +193,26 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UDPClienteAlumno">
-    <configuration name="E08_TCPCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.E08_TCPCliente" />
+  <component name="RunManager" selected="Application.ClienteAdivina">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.Cliente" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.ClienteAdivina" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPObjetoCliente1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.TCPObjetoCliente1" />
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.Servidor" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPObjetoServidor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.TCPObjetoServidor1" />
+    <configuration name="ServidorAdivina (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.ServidorAdivina" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPClienteAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsUDP.UDP.Ejercicio11.UDPClienteAlumno" />
+    <configuration name="ServidorAdivina (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.ServidorAdivina" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsUDP.UDP.Ejercicio11.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPServidorAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.SocketsUDP.UDP.Ejercicio11.UDPServidorAlumno" />
+    <configuration name="ServidorAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.HilosCompartenObjetos.ServidorAdivina" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.SocketsUDP.UDP.Ejercicio11.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado3_8_Multihilos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UDPClienteAlumno" />
-        <item itemvalue="Application.UDPServidorAlumno" />
-        <item itemvalue="Application.TCPObjetoCliente1" />
-        <item itemvalue="Application.TCPObjetoServidor1" />
-        <item itemvalue="Application.E08_TCPCliente" />
+        <item itemvalue="Application.ClienteAdivina" />
+        <item itemvalue="Application.ServidorAdivina (1)" />
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+        <item itemvalue="Application.ServidorAdivina (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +372,8 @@
       <workItem from="1733311469467" duration="160000" />
       <workItem from="1734351302089" duration="2964000" />
       <workItem from="1736333178686" duration="651000" />
-      <workItem from="1736422258107" duration="5408000" />
+      <workItem from="1736422258107" duration="5952000" />
+      <workItem from="1736768504749" duration="4561000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -614,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736426420817</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="09/01.">
+      <option name="closed" value="true" />
+      <created>1736428013352</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736428013352</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="03/10 procesos" />
     <MESSAGE value="07/10 procesos" />
     <MESSAGE value="Practica procesoss" />
     <MESSAGE value="Practica procesosss" />
@@ -657,7 +689,8 @@
     <MESSAGE value="18/11" />
     <MESSAGE value="28/11" />
     <MESSAGE value="09/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/01" />
+    <MESSAGE value="09/01." />
+    <option name="LAST_COMMIT_MESSAGE" value="09/01." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
