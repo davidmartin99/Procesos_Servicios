@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="09/01">
-      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/SocketsUDP/UDP/Ejercicio11/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/ManejadorCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/Servidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +132,7 @@
     "Application.ProcesosCooperativos.executor": "Run",
     "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
     "Application.ProducConsum.executor": "Run",
+    "Application.Servidor.executor": "Run",
     "Application.ServidorAdivina.executor": "Run",
     "Application.ServidorCuadrado.executor": "Run",
     "Application.ServidorMayusculas.executor": "Run",
@@ -157,13 +160,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/david/OneDrive/Escritorio/.jars/commons-net-3.11.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -182,13 +186,13 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UDPClienteAlumno">
-    <configuration name="E08_TCPCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.E08_TCPCliente" />
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Cliente" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Ejercicio13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPObjetoCliente1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.TCPObjetoCliente1" />
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Servidor" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Ejercicio13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPObjetoServidor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.TCPObjetoServidor1" />
+    <configuration name="TCPObjetoCliente1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.TCPObjetoCliente1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -278,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.UDPClienteAlumno" />
         <item itemvalue="Application.UDPServidorAlumno" />
         <item itemvalue="Application.TCPObjetoCliente1" />
-        <item itemvalue="Application.TCPObjetoServidor1" />
-        <item itemvalue="Application.E08_TCPCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="03/10 procesos" />
     <MESSAGE value="07/10 procesos" />
     <MESSAGE value="Practica procesoss" />
     <MESSAGE value="Practica procesosss" />
@@ -657,7 +660,8 @@
     <MESSAGE value="18/11" />
     <MESSAGE value="28/11" />
     <MESSAGE value="09/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/01" />
+    <MESSAGE value="20/01.." />
+    <option name="LAST_COMMIT_MESSAGE" value="20/01.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
