@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="16/01.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ClienteFTP1.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="20/01.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procesos_Servicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Procesos_Servicios.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,7 @@
     "Application.ClienteChat.executor": "Run",
     "Application.ClienteCuadrado.executor": "Run",
     "Application.ClienteFTP1.executor": "Run",
+    "Application.ClienteFTP2.executor": "Run",
     "Application.ClienteMinusculas.executor": "Run",
     "Application.ClienteTCP.executor": "Run",
     "Application.Colaborar.executor": "Run",
@@ -196,7 +194,7 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteFTP1">
+  <component name="RunManager" selected="Application.ClienteFTP2">
     <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.ClienteChat" />
       <module name="Procesos_Servicios" />
@@ -212,6 +210,19 @@
     </configuration>
     <configuration name="ClienteFTP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.ClienteFTP1" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema4_ServiciosEnRed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteFTP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.ClienteFTP2" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
@@ -263,19 +274,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VisualizarCadena" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema1.VisualizarCadena" />
       <module name="Procesos_Servicios" />
@@ -292,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClienteFTP2" />
         <item itemvalue="Application.ClienteFTP1" />
         <item itemvalue="Application.ClienteChat" />
         <item itemvalue="Application.ServidorChat" />
         <item itemvalue="Application.JugadorAdivina" />
-        <item itemvalue="Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +366,7 @@
       <workItem from="1737016821873" duration="57000" />
       <workItem from="1737026588676" duration="3790000" />
       <workItem from="1737099235039" duration="580000" />
-      <workItem from="1737370387262" duration="5565000" />
+      <workItem from="1737370387262" duration="6882000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -666,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737030340373</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="20/01.">
+      <option name="closed" value="true" />
+      <created>1737377602293</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1737377602293</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tema 2 MultiHilos 14" />
     <MESSAGE value="Tema 2 MultiHilos 14." />
     <MESSAGE value="Tema 2 MultiHilos 17/10" />
     <MESSAGE value="Tema 2 MultiHilos 21/10" />
@@ -709,7 +714,8 @@
     <MESSAGE value="13/01" />
     <MESSAGE value="13/01." />
     <MESSAGE value="16/01." />
-    <option name="LAST_COMMIT_MESSAGE" value="16/01." />
+    <MESSAGE value="20/01." />
+    <option name="LAST_COMMIT_MESSAGE" value="20/01." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
