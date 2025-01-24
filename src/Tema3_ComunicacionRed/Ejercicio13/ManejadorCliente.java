@@ -43,6 +43,6 @@ public class ManejadorCliente implements Runnable {
     }
 
     private String eliminarVocales(String texto) {
-        return texto.replaceAll("[aeiouAEIOU]", ""); // Elimina vocales de la cadena
+        return texto.replaceAll("[aeiouAEIOUáéíóúÁÉÍÓÚ]", ""); // Elimina vocales de la cadena
     }
 }
