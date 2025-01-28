@@ -23,22 +23,21 @@ public class Cliente {
             System.out.println("Conectado al servidor!");
             // Variables
             String numero;
-            String numeronuevo = ""; //Variable que almacena el último número
+
 
             while (true) {
                 System.out.print("Introduce un numero (o * para salir): ");
                 numero = scanner.nextLine();
                 salida.writeUTF(numero); // Envía el mensaje al servidor
 
-
                 // El programa finaliza si el cliente introduce "*"
                 if ("*".equals(numero)) { // Salida si el mensaje es un asterisco
+                    String ultimoNumero = entrada.readUTF(); // Lee el último número del servidor
+                    System.out.println("Último número introducido: " + ultimoNumero);
                     System.out.println("Desconexión del servidor.");
-                    System.out.println("Último número: " + numeronuevo);
                     break;
                 }
 
-                numeronuevo = numero;
                 // String respuesta = entrada.readUTF(); // Lee la respuesta del servidor
             }
         } catch (IOException e) {

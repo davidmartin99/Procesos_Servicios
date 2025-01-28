@@ -4,7 +4,6 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.HashSet;
 
 
@@ -13,9 +12,12 @@ import java.util.HashSet;
  */
 public class ManejadorCliente implements Runnable {
     private Socket socket;
+    private HashSet<String> numerosRecibidos; // Creamos el HashSet
 
-    public ManejadorCliente(Socket socket) {
+    // Clase con socket y numerosRecibidos
+    public ManejadorCliente(Socket socket, HashSet<String> numerosRecibidos) {
         this.socket = socket;
+        this.numerosRecibidos = numerosRecibidos;
     }
 
     @Override
@@ -26,17 +28,21 @@ public class ManejadorCliente implements Runnable {
 
             // Variable mensaje
             String mensaje;
+            String ultimoNumero = null; // Variable del último número
 
             while (true) {
                 mensaje = entrada.readUTF(); // Lee mensaje del cliente
-                System.out.println("Mensaje recibido: " + mensaje);
 
                 if ("*".equals(mensaje)) { // Verifica si se solicita desconexión
-                    System.out.println("Cliente desconectado.");
+                    salida.writeUTF(ultimoNumero != null ? ultimoNumero : "No hay números disponibles");
+                    System.out.println("Cliente desconectado. HashSet de números: " + numerosRecibidos);
                     break;
                 }
 
-                salida.writeUTF(mensaje); // Envía la cadena procesada al cliente
+                // Almacena el número en el HashSet y actualiza el último número
+                numerosRecibidos.add(mensaje);
+                ultimoNumero = mensaje;
+                System.out.println("Mensaje recibido: " + mensaje);
             }
 
         } catch (IOException e) { // Manejamos las posibles excepciones
