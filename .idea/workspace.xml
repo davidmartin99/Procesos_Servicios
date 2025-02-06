@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="27/01.">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="28/01.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/ManejadorCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/ManejadorCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/ServidorMultihilo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/ExamenDavidMartin/ServidorMultihilo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +373,10 @@
       <workItem from="1737705011437" duration="1792000" />
       <workItem from="1737710741499" duration="786000" />
       <workItem from="1737970645705" duration="9321000" />
-      <workItem from="1738049740290" duration="1430000" />
+      <workItem from="1738049740290" duration="1491000" />
+      <workItem from="1738148626765" duration="317000" />
+      <workItem from="1738583516802" duration="1877000" />
+      <workItem from="1738835766409" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -706,7 +706,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737983689563</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="28/01.">
+      <option name="closed" value="true" />
+      <created>1738051207467</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738051207467</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +732,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tema 2 MultiHilos 24/10" />
     <MESSAGE value="Tema 2 MultiHilos 24/10 ." />
     <MESSAGE value="Tema 2 MultiHilos 24/10 .." />
     <MESSAGE value="Tema 2 MultiHilos 24/10 ..." />
@@ -749,7 +756,8 @@
     <MESSAGE value="24/01." />
     <MESSAGE value="27/01" />
     <MESSAGE value="27/01." />
-    <option name="LAST_COMMIT_MESSAGE" value="27/01." />
+    <MESSAGE value="28/01." />
+    <option name="LAST_COMMIT_MESSAGE" value="28/01." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
