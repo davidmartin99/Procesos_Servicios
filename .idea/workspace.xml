@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="25/01...">
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="24/01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/ManejadorCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/ManejadorCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/davidmartin99/Procesos_Servicios.git&quot;,
-    &quot;accountId&quot;: &quot;428956c6-4789-43f2-87fe-020de087d362&quot;
+    &quot;accountId&quot;: &quot;fe9b9d90-3f4d-4070-ba49-408a17ff8428&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -55,7 +53,10 @@
     &quot;Application.ArgumentosValidador.executor&quot;: &quot;Run&quot;,
     &quot;Application.BloqueoHilos.executor&quot;: &quot;Run&quot;,
     &quot;Application.Cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteChat.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClienteCuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteFTP1.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClienteMinusculas.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClienteTCP.executor&quot;: &quot;Run&quot;,
     &quot;Application.Colaborar.executor&quot;: &quot;Run&quot;,
@@ -132,7 +133,11 @@
     &quot;Application.ProcessBuilder_Redirect_Ej8.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProducConsum.executor&quot;: &quot;Run&quot;,
     &quot;Application.Servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (3).executor&quot;: &quot;Run&quot;,
     &quot;Application.ServidorAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorChat.executor&quot;: &quot;Run&quot;,
     &quot;Application.ServidorCuadrado.executor&quot;: &quot;Run&quot;,
     &quot;Application.ServidorMayusculas.executor&quot;: &quot;Run&quot;,
     &quot;Application.ServidorTCP.executor&quot;: &quot;Run&quot;,
@@ -146,9 +151,12 @@
     &quot;Application.TCPejemplo1Servidor.executor&quot;: &quot;Run&quot;,
     &quot;Application.TareaCalculo_a.executor&quot;: &quot;Run&quot;,
     &quot;Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina.executor&quot;: &quot;Run&quot;,
     &quot;Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPcliente.executor&quot;: &quot;Run&quot;,
     &quot;Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPservidor.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestInetAddress.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPClienteAlumno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPServidorAlumno.executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPcliente.executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPservidor.executor&quot;: &quot;Run&quot;,
     &quot;Application.UsaHilo.executor&quot;: &quot;Run&quot;,
@@ -159,7 +167,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/OneDrive/Escritorio/.jars/commons-net-3.11.1.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aludam2/Downloads/commons-net-3.11.1-bin/commons-net-3.11.1/commons-net-3.11.1.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -167,8 +175,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -178,20 +186,20 @@
       <recent name="Tema2_MultiHilos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_8" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_7\Ejercicio8" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_8\AdivinaNumero" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_6\MulticastSockets\ejercicio7" />
-      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_8" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E08_TCPCliente">
-    <configuration name="E08_TCPCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.E08_TCPCliente" />
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Cliente" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Ejercicio13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +207,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E08_TCPServidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.E08_TCPServidor" />
+    <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.ClienteChat" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_7.Ejercicio8.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteFTP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.ClienteFTP1" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema4_ServiciosEnRed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClienteBasico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_5.TCPClienteBasico" />
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Servidor" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_5.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Ejercicio13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,25 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPejemplo1Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_5.TCPejemplo1Cliente" />
+    <configuration name="ServidorChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.ServidorChat" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TCPejemplo1Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_5.TCPejemplo1Servidor" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_5.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E08_TCPCliente" />
-        <item itemvalue="Application.E08_TCPServidor" />
-        <item itemvalue="Application.TCPejemplo1Cliente" />
-        <item itemvalue="Application.TCPejemplo1Servidor" />
-        <item itemvalue="Application.TCPClienteBasico" />
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+        <item itemvalue="Application.ClienteFTP1" />
+        <item itemvalue="Application.ClienteChat" />
+        <item itemvalue="Application.ServidorChat" />
       </list>
     </recent_temporary>
   </component>
@@ -351,8 +359,14 @@
       <workItem from="1733311469467" duration="160000" />
       <workItem from="1734351302089" duration="2964000" />
       <workItem from="1736333178686" duration="651000" />
-      <workItem from="1736422258107" duration="5408000" />
-      <workItem from="1738498020873" duration="243000" />
+      <workItem from="1736422258107" duration="5952000" />
+      <workItem from="1736768504749" duration="5144000" />
+      <workItem from="1736851408592" duration="1193000" />
+      <workItem from="1737016821873" duration="57000" />
+      <workItem from="1737026588676" duration="3790000" />
+      <workItem from="1737099235039" duration="580000" />
+      <workItem from="1737370387262" duration="5565000" />
+      <workItem from="1737705011437" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -618,7 +632,47 @@
       <option name="project" value="LOCAL" />
       <updated>1736426420817</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="09/01.">
+      <option name="closed" value="true" />
+      <created>1736428013352</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736428013352</updated>
+    </task>
+    <task id="LOCAL-00035" summary="13/01">
+      <option name="closed" value="true" />
+      <created>1736773104410</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773104410</updated>
+    </task>
+    <task id="LOCAL-00036" summary="13/01.">
+      <option name="closed" value="true" />
+      <created>1736773211801</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773211801</updated>
+    </task>
+    <task id="LOCAL-00037" summary="16/01.">
+      <option name="closed" value="true" />
+      <created>1737030340373</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1737030340373</updated>
+    </task>
+    <task id="LOCAL-00038" summary="24/01">
+      <option name="closed" value="true" />
+      <created>1737705024185</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1737705024185</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,10 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07/10 procesos" />
-    <MESSAGE value="Practica procesoss" />
-    <MESSAGE value="Practica procesosss" />
-    <MESSAGE value="Tema 2 MultiHilos 14" />
     <MESSAGE value="Tema 2 MultiHilos 14." />
     <MESSAGE value="Tema 2 MultiHilos 17/10" />
     <MESSAGE value="Tema 2 MultiHilos 21/10" />
@@ -660,8 +710,12 @@
     <MESSAGE value="18/11" />
     <MESSAGE value="28/11" />
     <MESSAGE value="09/01" />
-    <MESSAGE value="20/01.." />
-    <option name="LAST_COMMIT_MESSAGE" value="20/01.." />
+    <MESSAGE value="09/01." />
+    <MESSAGE value="13/01" />
+    <MESSAGE value="13/01." />
+    <MESSAGE value="16/01." />
+    <MESSAGE value="24/01" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
