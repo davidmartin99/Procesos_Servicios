@@ -14,7 +14,7 @@ public class SubirFicheroFTP {
         String servidorFTP = "127.0.0.1"; // Dirección del servidor FTP local
         int puertoFTP = 21; // Puerto FTP por defecto
         String usuario = "usuario1"; // Usuario configurado en el servidor FTP
-        String contrasena = "1234"; // Contraseña del usuario
+        String contrasena = "usuario1"; // Contraseña del usuario
 
         // Usar JFileChooser para seleccionar un archivo
         JFileChooser fileChooser = new JFileChooser();

@@ -11,7 +11,7 @@ public class ClienteFTPDescarga {
         String servidor = "127.0.0.1";
         int puerto = 21;
         String usuario = "usuario1";
-        String contrasena = "1234";
+        String contrasena = "usuario1";
 
         FTPClient clienteFTP = new FTPClient();
 
@@ -27,7 +27,7 @@ public class ClienteFTPDescarga {
 
                 // Descargar archivo
                 String archivoRemoto = "ContraseñaMercury2.txt";
-                String archivoLocal = "C:\\Users\\Ruper\\Downloads\\prueba.txt";
+                String archivoLocal = "C:\\Users\\david\\readme.txt";
                 try (FileOutputStream fos = new FileOutputStream(archivoLocal)) {
                     boolean exito = clienteFTP.retrieveFile(archivoRemoto, fos);
                     if (exito) {

@@ -20,11 +20,13 @@ public class ClienteSMTP3 {
 		AuthenticatingSMTPClient authenticatingSMTPClient = new AuthenticatingSMTPClient();
 
 		// datos del usuario y del servidor
-		String server = "smtp.gmail.com";
-		String username = "usuario@gmail.com";
-		String password = "clave";
-		int puerto = 587;
-		String remitente = "correo@gmail.com";
+		String server = "localhost"; // Mercury corre en tu máquina
+		int puerto = 25; // Puerto SMTP predeterminado
+		String username = "postmaster"; // Usuario creado en Mercury
+		String password = "1234"; // Contraseña del usuario en Mercury
+		String remitente = "postmaster@localhost"; // Debe coincidir con el usuario Mercury
+		String destino1 = "davidmartinpulgar9@gmail.com"; // Correo de destino externo
+
 
 		try {
 			int respuesta;
@@ -60,7 +62,7 @@ public class ClienteSMTP3 {
 				// se realiza la autenticación con el servidor
 				if (authenticatingSMTPClient.auth(AuthenticatingSMTPClient.AUTH_METHOD.LOGIN, username, password)) {
 					System.out.println("4 - " + authenticatingSMTPClient.getReplyString());
-					String destino1 = "destino1@servidor1.com";
+					destino1 = "destino1@servidor1.com";
 					String asunto = "Prueba de SMTPClient con GMAIL";
 					String mensaje = "Hola. \nEnviando saludos.\nUsando  GMAIL.\nChao.";
 					// se crea la cabecera
