@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="12/02.">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/FTP/Ej2_Uploader.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="06/02.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procesos_Servicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Procesos_Servicios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/SMTP/ClienteSMTP1_sendSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/SMTP/ClienteSMTP1_sendSimple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Kotlin Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +62,7 @@
     "Application.ClienteCuadrado.executor": "Run",
     "Application.ClienteFTP1.executor": "Run",
     "Application.ClienteMinusculas.executor": "Run",
+    "Application.ClienteSMTP1.executor": "Run",
     "Application.ClienteTCP.executor": "Run",
     "Application.Colaborar.executor": "Run",
     "Application.CompartirInf1.executor": "Run",
@@ -74,7 +74,6 @@
     "Application.E08_TCPCliente.executor": "Run",
     "Application.E08_TCPServidor.executor": "Run",
     "Application.Ej2_HolaMundoHilos.executor": "Run",
-    "Application.Ej2_Uploader.executor": "Run",
     "Application.Ej3_HolaMundoConRunnable.executor": "Run",
     "Application.Ej4_HolaMundoRunnable.executor": "Run",
     "Application.Ej5_Main (1).executor": "Run",
@@ -146,6 +145,7 @@
     "Application.ServidorChat.executor": "Run",
     "Application.ServidorCuadrado.executor": "Run",
     "Application.ServidorMayusculas.executor": "Run",
+    "Application.ServidorMultihilo.executor": "Run",
     "Application.ServidorTCP.executor": "Run",
     "Application.SincronizacionSubprocesos.executor": "Run",
     "Application.SumarNumeros.executor": "Run",
@@ -158,6 +158,7 @@
     "Application.TareaCalculo_a.executor": "Run",
     "Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor": "Run",
     "Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina.executor": "Run",
+    "Application.Tema3_ComunicacionRed.ExamenDavidMartin.Cliente.executor": "Run",
     "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPcliente.executor": "Run",
     "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPservidor.executor": "Run",
     "Application.TestInetAddress.executor": "Run",
@@ -165,7 +166,6 @@
     "Application.UDPServidorAlumno.executor": "Run",
     "Application.UDPcliente.executor": "Run",
     "Application.UDPservidor.executor": "Run",
-    "Application.Uploader_2.executor": "Run",
     "Application.UsaHilo.executor": "Run",
     "Application.UsaPrimerHiloR.executor": "Run",
     "Application.VisualizarCadena.executor": "Run",
@@ -174,7 +174,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SERVICIOS_PROCESOS/Tema4_ServiciosEnRed/.jars/commons-net-examples-3.11.1.jar",
+    "last_opened_file_path": "C:/Users/aludam2/Downloads/commons-net-3.11.1-bin/commons-net-3.11.1/commons-net-3.11.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -190,6 +190,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tema3_ComunicacionRed.ExamenDavidMartin" />
       <recent name="Tema2_MultiHilos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -200,7 +201,7 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ej2_Uploader">
+  <component name="RunManager" selected="Application.ClienteFTP1">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Cliente" />
       <module name="Procesos_Servicios" />
@@ -214,38 +215,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.ClienteChat" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Apartado_3_8.ChatTCP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClienteFTP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.ClienteFTP1" />
-      <module name="Procesos_Servicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema4_ServiciosEnRed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ej2_Uploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.FTP.Ej2_Uploader" />
+      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.FTP.ClienteFTP1" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tema4_ServiciosEnRed.FTP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteSMTP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema4_ServiciosEnRed.SMTP.ClienteSMTP1" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema4_ServiciosEnRed.SMTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +255,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.Ejercicio13.Servidor" />
+    <configuration name="ServidorMultihilo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.ExamenDavidMartin.ServidorMultihilo" />
       <module name="Procesos_Servicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tema3_ComunicacionRed.Ejercicio13.*" />
+          <option name="PATTERN" value="Tema3_ComunicacionRed.ExamenDavidMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tema3_ComunicacionRed.ExamenDavidMartin.Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema3_ComunicacionRed.ExamenDavidMartin.Cliente" />
+      <module name="Procesos_Servicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema3_ComunicacionRed.ExamenDavidMartin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ej2_Uploader" />
-        <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.ClienteFTP1" />
-        <item itemvalue="Application.ClienteChat" />
+        <item itemvalue="Application.ClienteSMTP1" />
+        <item itemvalue="Application.Tema3_ComunicacionRed.ExamenDavidMartin.Cliente" />
+        <item itemvalue="Application.ServidorMultihilo" />
+        <item itemvalue="Application.Cliente" />
       </list>
     </recent_temporary>
   </component>
@@ -374,6 +375,14 @@
       <workItem from="1737099235039" duration="580000" />
       <workItem from="1737370387262" duration="5565000" />
       <workItem from="1737705011437" duration="1792000" />
+      <workItem from="1737710741499" duration="786000" />
+      <workItem from="1737970645705" duration="9321000" />
+      <workItem from="1738049740290" duration="1491000" />
+      <workItem from="1738148626765" duration="317000" />
+      <workItem from="1738583516802" duration="1877000" />
+      <workItem from="1738835766409" duration="597000" />
+      <workItem from="1738845025715" duration="2151000" />
+      <workItem from="1739184593597" duration="4166000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -679,7 +688,55 @@
       <option name="project" value="LOCAL" />
       <updated>1737705024185</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="24/01.">
+      <option name="closed" value="true" />
+      <created>1737710806883</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1737710806883</updated>
+    </task>
+    <task id="LOCAL-00040" summary="27/01">
+      <option name="closed" value="true" />
+      <created>1737970724214</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1737970724214</updated>
+    </task>
+    <task id="LOCAL-00041" summary="27/01.">
+      <option name="closed" value="true" />
+      <created>1737983689563</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1737983689563</updated>
+    </task>
+    <task id="LOCAL-00042" summary="28/01.">
+      <option name="closed" value="true" />
+      <created>1738051207467</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738051207467</updated>
+    </task>
+    <task id="LOCAL-00043" summary="06/02">
+      <option name="closed" value="true" />
+      <created>1738845320504</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1738845320504</updated>
+    </task>
+    <task id="LOCAL-00044" summary="06/02.">
+      <option name="closed" value="true" />
+      <created>1738846458000</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1738846458000</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,12 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tema 2 MultiHilos 14." />
-    <MESSAGE value="Tema 2 MultiHilos 17/10" />
-    <MESSAGE value="Tema 2 MultiHilos 21/10" />
-    <MESSAGE value="Tema 2 MultiHilos 24/10" />
-    <MESSAGE value="Tema 2 MultiHilos 24/10 ." />
-    <MESSAGE value="Tema 2 MultiHilos 24/10 .." />
     <MESSAGE value="Tema 2 MultiHilos 24/10 ..." />
     <MESSAGE value="Tema 2 MultiHilos 31/10 ..." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10" />
@@ -722,7 +773,13 @@
     <MESSAGE value="13/01." />
     <MESSAGE value="16/01." />
     <MESSAGE value="24/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/01" />
+    <MESSAGE value="24/01." />
+    <MESSAGE value="27/01" />
+    <MESSAGE value="27/01." />
+    <MESSAGE value="28/01." />
+    <MESSAGE value="06/02" />
+    <MESSAGE value="06/02." />
+    <option name="LAST_COMMIT_MESSAGE" value="06/02." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,6 +802,11 @@
           <url>file://$PROJECT_DIR$/src/Tema2_MultiHilos/PrimerHiloRunnable.java</url>
           <line>2</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tema3_ComunicacionRed/Ejercicio13/ManejadorCliente.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
