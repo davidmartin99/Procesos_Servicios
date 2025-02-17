@@ -28,7 +28,7 @@ public class ClienteSMTP2 {
 
 			clienteSMTP.login();
 
-			String remitente = "yo@localhost.es";
+			String remitente = "postmaster@localhost.es";
 			String destino1 = "destino1@servidor1.com";
 			String destino2 = "destino2@servidor2.com";
 			String asunto = "Prueba de SMTPClient";

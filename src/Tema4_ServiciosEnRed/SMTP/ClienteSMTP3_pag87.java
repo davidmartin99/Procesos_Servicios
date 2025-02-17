@@ -18,10 +18,10 @@ public class ClienteSMTP3_pag87 {
 
         // Datos del usuario y del servidor
         String server = "smtp.gmail.com";
-        String username = "correo@gmail.com";
-        String password = "claveusuario";
+        String username = "postmaster";
+        String password = "1234";
         int puerto = 587;
-        String remitente = "correo@gmail.com";
+        String remitente = "postmaster@localhost";
 
         try {
             int respuesta;
