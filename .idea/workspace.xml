@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="13/02">
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Ejercicio4_2/SubirFicheroFTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Ejercicio4_3/ClienteFTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Examen/Examen2/ClienteFTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Examen/Examen2/ClienteFTPDescarga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Examen/Examen3/ClienteFTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/POP/Ejemplo1POP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/POP/Ejemplo2POP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/POP/Ejemplo3POP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/POP/Ejemplo4POP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/ClienteFicheros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/EnviaFichero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/EstructuraFicheros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/HiloServidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/ObtieneFichero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/PideFichero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/ServidorArchivos/Servidor.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="13/02.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,145 +48,145 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlmacenarCadena.executor": "Run",
-    "Application.ArgumentosValidador.executor": "Run",
-    "Application.BloqueoHilos.executor": "Run",
-    "Application.Cliente.executor": "Run",
-    "Application.ClienteAdivina.executor": "Run",
-    "Application.ClienteChat.executor": "Run",
-    "Application.ClienteCuadrado.executor": "Run",
-    "Application.ClienteFTP.executor": "Run",
-    "Application.ClienteFTP1.executor": "Run",
-    "Application.ClienteMinusculas.executor": "Run",
-    "Application.ClienteSMTP1.executor": "Run",
-    "Application.ClienteTCP.executor": "Run",
-    "Application.Colaborar.executor": "Run",
-    "Application.CompartirInf1.executor": "Run",
-    "Application.CompartirInf3.executor": "Run",
-    "Application.ComprimirArchivos.executor": "Run",
-    "Application.CuentaVocales.executor": "Run",
-    "Application.E07_MulticastCliente.executor": "Run",
-    "Application.E07_MulticastServidor.executor": "Run",
-    "Application.E08_TCPCliente.executor": "Run",
-    "Application.E08_TCPServidor.executor": "Run",
-    "Application.Ej2_HolaMundoHilos.executor": "Run",
-    "Application.Ej3_HolaMundoConRunnable.executor": "Run",
-    "Application.Ej4_HolaMundoRunnable.executor": "Run",
-    "Application.Ej5_Main (1).executor": "Run",
-    "Application.Ej5_Main (2).executor": "Run",
-    "Application.Ej5_Main.executor": "Run",
-    "Application.Ej_1_ClienteTCP.executor": "Run",
-    "Application.Ej_1_ServidorTCP.executor": "Run",
-    "Application.Ej_2_2_HolaMundoHilos.executor": "Run",
-    "Application.EjecutorComandos.executor": "Run",
-    "Application.Ejemplo1.executor": "Run",
-    "Application.Ejemplo1URL.executor": "Run",
-    "Application.Ejemplo2.executor": "Run",
-    "Application.Ejemplo2URL.executor": "Run",
-    "Application.Ejemplo2urlCon.executor": "Run",
-    "Application.Ejemplo3.executor": "Run",
-    "Application.Ejemplo4.executor": "Run",
-    "Application.Ejemplo5.executor": "Run",
-    "Application.Ejemplo6.executor": "Run",
-    "Application.Ejemplo7.executor": "Run",
-    "Application.Ejemplo8.executor": "Run",
-    "Application.Ejemplo9.executor": "Run",
-    "Application.EjemploJoin.executor": "Run",
-    "Application.EjemploLectura.executor": "Run",
-    "Application.Ejercicio_1.executor": "Run",
-    "Application.Ejercicio_6.executor": "Run",
-    "Application.EntradaSalidaERROR_Ej1_7.executor": "Run",
-    "Application.EnviarDatagramSocket.executor": "Run",
-    "Application.EnviarDatagrama.executor": "Run",
-    "Application.EstadosHilo.executor": "Run",
-    "Application.GeneradorArchivos.executor": "Run",
-    "Application.GeneradorCSV.executor": "Run",
-    "Application.GeneradorIdentAlfa.executor": "Run",
-    "Application.GestorTareas.executor": "Run",
-    "Application.HiloEjemplo1.executor": "Run",
-    "Application.HiloEjemplo2.executor": "Run",
-    "Application.HiloEjemplo2Grupos.executor": "Run",
-    "Application.HiloEjemploDead.executor": "Run",
-    "Application.HiloEjemploInterrup.executor": "Run",
-    "Application.HiloPrioridad1.executor": "Run",
-    "Application.HiloPrioridad2.executor": "Run",
-    "Application.Incrementador1.executor": "Run",
-    "Application.Incrementador2.executor": "Run",
-    "Application.IncrementadorConBloqueo.executor": "Run",
-    "Application.JugadorAdivina.executor": "Run",
-    "Application.LanzaAlmacenarCadena.executor": "Run",
-    "Application.LanzaLeerCadena_6.executor": "Run",
-    "Application.LanzaLeerNombre.executor": "Run",
-    "Application.LanzaSumarNumeros.executor": "Run",
-    "Application.LanzaValidador.executor": "Run",
-    "Application.LanzaVisualizarCadena.executor": "Run",
-    "Application.LanzaVisualizarCadena2.executor": "Run",
-    "Application.LanzaVisualizarCadena5.executor": "Run",
-    "Application.LeerCadena_6.executor": "Run",
-    "Application.LeerNombre.executor": "Run",
-    "Application.Lenguaje.executor": "Run",
-    "Application.MCcliente.executor": "Run",
-    "Application.MCservidor.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ParallelProcessExample.executor": "Run",
-    "Application.PrimerHilo.executor": "Run",
-    "Application.ProcesosCooperativos.executor": "Run",
-    "Application.ProcessBuilder_Redirect_Ej8.executor": "Run",
-    "Application.ProducConsum.executor": "Run",
-    "Application.Servidor.executor": "Run",
-    "Application.ServidorAdivina (1).executor": "Run",
-    "Application.ServidorAdivina (2).executor": "Run",
-    "Application.ServidorAdivina (3).executor": "Run",
-    "Application.ServidorAdivina.executor": "Run",
-    "Application.ServidorChat.executor": "Run",
-    "Application.ServidorCuadrado.executor": "Run",
-    "Application.ServidorMayusculas.executor": "Run",
-    "Application.ServidorMultihilo.executor": "Run",
-    "Application.ServidorTCP.executor": "Run",
-    "Application.SincronizacionSubprocesos.executor": "Run",
-    "Application.SubirFicheroFTP.executor": "Run",
-    "Application.SumarNumeros.executor": "Run",
-    "Application.TCPClienteBasico.executor": "Run",
-    "Application.TCPObjetoCliente1.executor": "Run",
-    "Application.TCPObjetoServidor1.executor": "Run",
-    "Application.TCPServidorBasico.executor": "Run",
-    "Application.TCPejemplo1Cliente.executor": "Run",
-    "Application.TCPejemplo1Servidor.executor": "Run",
-    "Application.TareaCalculo_a.executor": "Run",
-    "Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor": "Run",
-    "Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina.executor": "Run",
-    "Application.Tema3_ComunicacionRed.ExamenDavidMartin.Cliente.executor": "Run",
-    "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPcliente.executor": "Run",
-    "Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPservidor.executor": "Run",
-    "Application.TestInetAddress.executor": "Run",
-    "Application.UDPClienteAlumno.executor": "Run",
-    "Application.UDPServidorAlumno.executor": "Run",
-    "Application.UDPcliente.executor": "Run",
-    "Application.UDPservidor.executor": "Run",
-    "Application.UsaHilo.executor": "Run",
-    "Application.UsaPrimerHiloR.executor": "Run",
-    "Application.VisualizarCadena.executor": "Run",
-    "Application.VisualizarCadena5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aludam2/Downloads/commons-net-3.11.1-bin/commons-net-3.11.1/commons-net-3.11.1.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlmacenarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArgumentosValidador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BloqueoHilos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteChat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteCuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteFTP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteFTP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteMinusculas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteSMTP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteTCP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Colaborar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompartirInf1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompartirInf3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComprimirArchivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CuentaVocales.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E07_MulticastCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E07_MulticastServidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E08_TCPCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E08_TCPServidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2_HolaMundoHilos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3_HolaMundoConRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej4_HolaMundoRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej_1_ClienteTCP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej_1_ServidorTCP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej_2_2_HolaMundoHilos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjecutorComandos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo1URL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo2URL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo2urlCon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploJoin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploLectura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejercicio_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejercicio_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EntradaSalidaERROR_Ej1_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnviarDatagramSocket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnviarDatagrama.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstadosHilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneradorArchivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneradorCSV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneradorIdentAlfa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GestorTareas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemplo2Grupos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemploDead.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloEjemploInterrup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloPrioridad1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiloPrioridad2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Incrementador1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Incrementador2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncrementadorConBloqueo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JugadorAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaAlmacenarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaLeerCadena_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaLeerNombre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaSumarNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaValidador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LanzaVisualizarCadena5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeerCadena_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeerNombre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lenguaje.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MCcliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MCservidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParallelProcessExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimerHilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcesosCooperativos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcessBuilder_Redirect_Ej8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducConsum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorChat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorCuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorMayusculas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorMultihilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorTCP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SincronizacionSubprocesos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubirFicheroFTP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumarNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPClienteBasico.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPObjetoCliente1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPObjetoServidor1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPServidorBasico.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPejemplo1Cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPejemplo1Servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TareaCalculo_a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema2_MultiHilos.BloquesSincronizadosEj7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema3_ComunicacionRed.Apartado_3_8.AdivinaNumero.ServidorAdivina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema3_ComunicacionRed.ExamenDavidMartin.Cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPcliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tema3_ComunicacionRed.SocketsUDP.UDP.UDPservidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestInetAddress.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPClienteAlumno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPServidorAlumno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPcliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPservidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsaHilo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsaPrimerHiloR.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisualizarCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisualizarCadena5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aludam2/Downloads/commons-net-3.11.1-bin/commons-net-3.11.1/commons-net-3.11.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aludam2/IdeaProjects/Procesos_Servicios/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tema3_ComunicacionRed.ExamenDavidMartin" />
@@ -402,7 +386,8 @@
       <workItem from="1739277563394" duration="592000" />
       <workItem from="1739357868583" duration="593000" />
       <workItem from="1739435233554" duration="326000" />
-      <workItem from="1739445957872" duration="3428000" />
+      <workItem from="1739445957872" duration="5030000" />
+      <workItem from="1739518596309" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -772,7 +757,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739435245531</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="13/02.">
+      <option name="closed" value="true" />
+      <created>1739451384713</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1739451384713</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +783,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tema 3.Comunicaciones 31/10" />
     <MESSAGE value="Tema 3.Comunicaciones 31/10." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10.." />
     <MESSAGE value="Practica Tema2" />
@@ -815,7 +807,8 @@
     <MESSAGE value="06/02." />
     <MESSAGE value="10/02" />
     <MESSAGE value="13/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="13/02" />
+    <MESSAGE value="13/02." />
+    <option name="LAST_COMMIT_MESSAGE" value="13/02." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
