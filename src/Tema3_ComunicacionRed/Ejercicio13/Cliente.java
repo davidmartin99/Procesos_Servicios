@@ -29,6 +29,8 @@ public class Cliente {
                     break;
                 }
 
+                System.out.println("Mensaje enviado al servidor: " + mensaje);
+
                 String respuesta = entrada.readUTF(); // Lee la respuesta del servidor
                 System.out.println("Respuesta del servidor: " + respuesta);
             }

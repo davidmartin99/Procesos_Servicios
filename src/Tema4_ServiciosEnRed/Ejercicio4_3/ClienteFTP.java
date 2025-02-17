@@ -15,7 +15,7 @@ public class ClienteFTP {
         String servidorFTP = "127.0.0.1";  // Dirección del servidor FTP local
         int puertoFTP = 21;  // Puerto por defecto para FTP
         String usuario = "usuario1"; // Usuario configurado en el servidor FTP
-        String contrasena = "1234"; // Contraseña del usuario
+        String contrasena = "usuario1"; // Contraseña del usuario
 
         // Pedir usuario y contraseña por teclado
 

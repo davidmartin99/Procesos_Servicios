@@ -3,14 +3,13 @@ package Tema4_ServiciosEnRed.Examen.Examen3;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-
-import java.io.*;
 import java.util.Scanner;
 
-public class ClienteFTP {
+public class ClienteFTP2 {
     public static void main(String[] args) {
         String servidor = "127.0.0.1"; // Dirección del servidor FTP
         int puerto = 21; // Puerto del servidor FTP
@@ -90,10 +89,16 @@ public class ClienteFTP {
 
     private static void listarArchivos(FTPClient clienteFTP) throws IOException {
         System.out.println("Archivos y directorios disponibles:");
-        for (String nombre : clienteFTP.listNames()) {
-            System.out.println(" - " + nombre);
+        String[] archivos = clienteFTP.listNames();
+        if (archivos != null) {
+            for (String nombre : archivos) {
+                System.out.println(" - " + nombre);
+            }
+        } else {
+            System.out.println("No se pudieron listar los archivos.");
         }
     }
+
 
     private static void subirArchivo(FTPClient clienteFTP, String rutaArchivo) throws IOException {
         File archivo = new File(rutaArchivo);
@@ -147,11 +152,39 @@ public class ClienteFTP {
     }
 
     private static void eliminarArchivo(FTPClient clienteFTP, String archivoRemoto) throws IOException {
-        boolean exito = clienteFTP.deleteFile(archivoRemoto);
-        if (exito) {
-            System.out.println("Archivo eliminado correctamente.");
+        // Listar los archivos antes de intentar eliminar para verificar que el archivo existe
+        System.out.println("Archivos disponibles antes de eliminar:");
+        String[] archivos = clienteFTP.listNames();
+        if (archivos != null) {
+            for (String nombre : archivos) {
+                System.out.println(" - " + nombre);
+            }
+        }
+
+        // Verificar si el archivo existe en el servidor FTP
+        boolean existe = false;
+        for (String nombre : archivos) {
+            if (nombre.equals(archivoRemoto)) {
+                existe = true;
+                break;
+            }
+        }
+
+        if (existe) {
+            // Intentar eliminar el archivo
+            try {
+                boolean exito = clienteFTP.deleteFile(archivoRemoto);
+                if (exito) {
+                    System.out.println("Archivo eliminado correctamente.");
+                } else {
+                    System.out.println("Error al eliminar el archivo: El archivo no se pudo eliminar.");
+                }
+            } catch (IOException e) {
+                System.out.println("Error al eliminar el archivo: " + e.getMessage());
+            }
         } else {
-            System.out.println("Error al eliminar el archivo.");
+            System.out.println("El archivo no existe en el servidor FTP.");
         }
     }
+
 }

@@ -29,7 +29,7 @@ public class ManejadorCliente implements Runnable {
 
                 String procesado = eliminarVocales(mensaje);
                 salida.writeUTF(procesado); // Envía la cadena procesada al cliente
-                System.out.println("Mensaje procesado enviado: " + procesado);
+                // System.out.println("Respuesta del servidor: " + procesado);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -45,4 +45,5 @@ public class ManejadorCliente implements Runnable {
     private String eliminarVocales(String texto) {
         return texto.replaceAll("[aeiouAEIOUáéíóúÁÉÍÓÚ]", ""); // Elimina vocales de la cadena
     }
+
 }

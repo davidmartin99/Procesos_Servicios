@@ -23,7 +23,7 @@ public class ClienteSMTP1_sendSimple {
 			clienteSMTP.login();
 			String destinatario = "davidmartinpulgar9@gmail.com";
 			String mensaje = "Hola, \n Mensaje de prueba. \n Saludos.";
-			String remitente = "yo@localhost.com";
+			String remitente = "smtp.gmail.com";
 
 			if (clienteSMTP.sendSimpleMessage(remitente, destinatario, mensaje))
 				System.out.println("Mensaje enviado a " + destinatario);

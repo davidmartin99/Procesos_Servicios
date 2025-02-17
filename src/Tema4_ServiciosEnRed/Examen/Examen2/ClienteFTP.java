@@ -12,7 +12,7 @@ public class ClienteFTP {
         String servidor = "127.0.0.1";
         int puerto = 21;
         String usuario = "usuario1";
-        String contrasena = "1234";
+        String contrasena = "usuario1";
 
         FTPClient clienteFTP = new FTPClient();
 
@@ -27,8 +27,16 @@ public class ClienteFTP {
                 clienteFTP.setFileType(FTP.BINARY_FILE_TYPE);
 
                 // Subir archivo
-                String archivoLocal = "C:\\Users\\Ruper\\Downloads\\ContraseñaMercury2.txt";
+                String archivoLocal = "C:\\NUEVODIR\\Lorem_ipsum.pdf";
                 File archivo = new File(archivoLocal);
+
+
+                if (!archivo.exists()) {
+                    System.out.println("Error: el archivo no existe.");
+                    return;
+                }
+
+
                 try (FileInputStream fis = new FileInputStream(archivo)) {
                     boolean exito = clienteFTP.storeFile(archivo.getName(), fis);
                     if (exito) {
