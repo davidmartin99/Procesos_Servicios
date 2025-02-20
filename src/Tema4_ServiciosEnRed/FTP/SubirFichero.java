@@ -25,7 +25,7 @@ public class SubirFichero {
 			clienteFTP.setFileType(FTP.BINARY_FILE_TYPE);
 
 			// Directorio donde se subirá el archivo en el servidor FTP
-			String direc = "/NUEVODIR";
+			String direc = "/usuario1";
 
 			// Se activa el modo pasivo para la conexión (necesario en muchos servidores)
 			clienteFTP.enterLocalPassiveMode();
@@ -36,7 +36,7 @@ public class SubirFichero {
 				// Se intenta cambiar al directorio de trabajo en el servidor FTP
 				if (!clienteFTP.changeWorkingDirectory(direc)) {
 					// Si el directorio no existe, se intenta crearlo
-					String directorio = "NUEVODIR";
+					String directorio = "usuario1";
 
 					if (clienteFTP.makeDirectory(directorio)) {
 						System.out.println("Directorio : " + directorio + " creado ...");
@@ -52,13 +52,13 @@ public class SubirFichero {
 				System.out.println("Directorio actual: " + clienteFTP.printWorkingDirectory());
 
 				// Ruta del archivo que se desea subir desde el sistema local
-				String archivo = "C:\\Users\\david\\IdeaProjects\\Procesos_Servicios\\src\\Tema4_ServiciosEnRed\\FTP\\Lorem_ipsum.pdf";
+				String archivo = "C:\\usuario1\\LOG.txt";
 
 				// Se abre el archivo para leerlo en un flujo de entrada
 				BufferedInputStream in = new BufferedInputStream(new FileInputStream(archivo));
 
 				// Se intenta subir el archivo al servidor FTP con el mismo nombre
-				if (clienteFTP.storeFile("Lorem_ipsum.pdf", in))
+				if (clienteFTP.storeFile("LOG.txt", in))
 					System.out.println("Subido correctamente... ");
 				else
 					System.out.println("No se ha podido subir el fichero... ");
