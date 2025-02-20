@@ -1,0 +1,3 @@
+grant codeBase "file:C:/eclipse-workspace/Tema5/bin/"{ 
+    permission java.io.FilePermission "D:\\CLASE\\*", "read,write";
+}; 

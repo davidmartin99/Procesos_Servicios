@@ -1,0 +1,4 @@
+grant codeBase "file:D:/CAPIT5/" {
+   permission java.net.SocketPermission "localhost", "accept,listen";
+};
+

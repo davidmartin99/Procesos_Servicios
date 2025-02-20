@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="17/02">
-      <change afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/Examen/ExamenR4/ClienteFTP_SMTP.java" afterDir="false" />
+    <list default="true" id="cb1ba884-037f-4c99-be17-7ab9968d77a2" name="Changes" comment="20/02">
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/AlmacenaClaveSecreta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Clave.privada" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Clave.publica" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo13Cifra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo13Descifra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Ejemplo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Factura.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Factura2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/InfoProveedores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/Lorem_ipsum (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/Criptografia/RecuperaClaveSecreta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Ejemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Ejemplo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Ejemplo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Ejemplo3Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Politica1.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Politica2.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Politica3.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema5_ProgramacionSegura/FicherosPoliticas/Politica4.policy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/FTP/SubirFichero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema4_ServiciosEnRed/FTP/SubirFichero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,11 +237,11 @@
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema4_ServiciosEnRed\Examen\Examen3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema5_ProgramacionSegura\FicherosPoliticas" />
+      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema5_ProgramacionSegura\Criptografia" />
+      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema5_ProgramacionSegura" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_8" />
       <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_7\Ejercicio8" />
-      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_8\AdivinaNumero" />
-      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_6\MulticastSockets\ejercicio7" />
-      <recent name="C:\Users\aludam2\IdeaProjects\Procesos_Servicios\src\Tema3_ComunicacionRed\Apartado_3_3\Ejemplo2urlCon" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ClienteFTP_SMTP">
@@ -404,7 +428,7 @@
       <workItem from="1739184593597" duration="4166000" />
       <workItem from="1739875490324" duration="1190000" />
       <workItem from="1740042290210" duration="3000" />
-      <workItem from="1740052347210" duration="23000" />
+      <workItem from="1740052347210" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="programación de procesos y servicios">
       <option name="closed" value="true" />
@@ -766,7 +790,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739791985325</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="20/02">
+      <option name="closed" value="true" />
+      <created>1740052490186</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740052490186</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tema 2 MultiHilos 31/10 ..." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10" />
     <MESSAGE value="Tema 3.Comunicaciones 31/10." />
     <MESSAGE value="Tema 3.Comunicaciones 31/10.." />
@@ -809,7 +840,8 @@
     <MESSAGE value="06/02" />
     <MESSAGE value="06/02." />
     <MESSAGE value="17/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/02" />
+    <MESSAGE value="20/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
